@@ -10,7 +10,7 @@ const Features = () => {
     
    <div>
    <div>
-   <div class="rounded overflow-hidden shadow-lg">
+   <div class="rounded-2xl overflow-hidden shadow-lg">
       <img class="w-full" src={feat} alt="Forest"></img>
       <div class="px-6 py-4">
       <div class="font-bold font-['Montserrat'] text-xl mb-2 text-center">First Unity Estate</div>
@@ -50,15 +50,15 @@ const Features = () => {
             </div>
         </div>
          <p class=" text-2xl font-medium tracking-wide text-center text-gray-700 font-['Roboto']">₦200 Million</p>
-        <div class=" bg-blue-500">
-        <p class="  text-lg font-medium tracking-wide text-center text-gray-700">View more</p>
+        <div class=" bg-[#29545E]">
+        <p class="  text-lg font-medium tracking-wide text-center text-white">View more</p>
         </div>
     </div>
    </div>
    </div>
     
    <div>
-   <div class="rounded overflow-hidden shadow-lg">
+   <div class="rounded-2xl overflow-hidden shadow-lg">
       <img class="w-full" src={feat} alt="Forest"></img>
       <div class="px-6 py-4">
       <div class="font-bold font-['Montserrat'] text-xl mb-2 text-center">First Unity Estate</div>
@@ -98,15 +98,15 @@ const Features = () => {
             </div>
         </div>
         <p class="text-2xl font-medium tracking-wide text-center text-gray-700 font-['Roboto']">₦200 Million</p>
-        <div class=" bg-blue-500">
-        <p class="  text-lg font-medium tracking-wide text-center text-gray-700">View more</p>
+        <div class=" bg-[#29545E]">
+        <p class="  text-lg font-medium tracking-wide text-center text-white">View more</p>
         </div>
     </div>
    </div>
 
       <div>
-      <div class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src={feat} alt="Forest"></img>
+      <div class="rounded-2xl overflow-hidden shadow-lg">
+      <img class="w-full " src={feat} alt="Forest"></img>
       <div class="px-6 py-4">
       <div class="font-bold font-['Montserrat']  text-xl mb-2 text-center">First Unity Estate</div>
       <p class="text-gray-700 text-base text-center font-['Roboto'] ">
@@ -145,8 +145,8 @@ const Features = () => {
             </div>
         </div>
         <p class=" text-2xl font-medium tracking-wide text-center text-gray-700 font-['Roboto']">₦200 Million</p>
-        <div class=" bg-blue-500">
-        <p class="  text-lg font-medium tracking-wide text-center text-gray-700 bg-blue-500">View more</p>
+        <div class="bg-[#29545E]">
+        <p class="  text-lg font-medium tracking-wide text-center text-white ">View more</p>
         </div>
         
         

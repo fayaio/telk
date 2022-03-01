@@ -3,7 +3,7 @@ import React from "react"
 import logo from "../img/logo.png"
 const Footer = () => {
     return (
-        <footer class="p-4 bg-[#29545E] sm:p-6 dark:bg-gray-800">
+        <footer class="p-4 bg-[#29545E] sm:p-6 dark:bg-gray-800 mt-[20px]">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="#" target="_blank" class="flex items-center">

@@ -3,7 +3,12 @@ import ceo from "../img/ceo.png"
 
 const Team = () => {
     return (
-        <div class="max-w-md mx-auto bg-[#29545E] rounded-xl shadow-md overflow-hidden md:max-w-2xl pb-20">
+        <div>
+             <p class="text-5xl font-medium tracking-wide text-center text-gray-80 expl-t  font-['Montserrat']">Meet our Team</p>
+     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"></div>
+       
+       
+        <div class="max-w-md mx-auto bg-[#29545E] rounded-xl shadow-md overflow-hidden md:max-w-2xl pb-20 pt-20 pr-10 pl-10">
         <div class="md:flex">
           <div class="md:shrink-0">
             <img class="max-h-full w-full object-cover md:h-full md:w-48" src={ceo} alt="Man looking at item at a store"/>
@@ -15,6 +20,7 @@ const Team = () => {
             <div class=" tracking-wide text-sm text-indigo-500 font-semibold">Read more</div>
           </div>
         </div>
+      </div>
       </div>
     )
 }

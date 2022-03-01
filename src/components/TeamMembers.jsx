@@ -3,9 +3,9 @@ import React from "react"
 import team from "../img/team.png"
 const TeamMembers = () => {
     return (
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-[20px] ml-[20px] mr-[20px]">
 
-			<div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg">
+			<div class="flex flex-col items-center justify-center bg-white p-4 shadow rounded-lg ">
 				<div class="inline-flex shadow-lg border border-gray-200 rounded-full overflow-hidden h-40 w-40">
 					<img src={team}
 						 alt=""
