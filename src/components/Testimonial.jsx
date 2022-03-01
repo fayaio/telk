@@ -8,8 +8,8 @@ const Testimonial= () => {
   
   
   <div class="mb-8 text-center">
-    <h2 class="text-4xl font-bold text-white">Testimonials</h2>
-    <p class="text-lg text-white">What others say about us</p>
+    <h2 class="text-4xl font-bold text-white  font-['Montserrat']">Testimonials</h2>
+    <p class="text-lg text-white  font-['Montserrat']">What others say about us</p>
 </div>
 <div class="lg:grid lg:grid-cols-3 lg:gap-x-2 bg-white test-tp">
     <div class="p-4 text-gray-800 rounded-lg shadow-md ">
@@ -20,9 +20,9 @@ const Testimonial= () => {
                     <img src={kehide} alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-indigo-600">Kehinde Oyefeso</h5>
+                <h5 class="font-bold text-indigo-600  font-['Montserrat']">Kehinde Oyefeso</h5>
                 
-                <p class="mb-2 text-center text-gray-600 ">
+                <p class="mb-2 text-center text-gray-600  font-['Montserrat'] ">
                 " BJF Property’s greatest strengths versus other solutions I’ve used is its simplicity and ease of customization. "
             </p>
             </div>
@@ -36,9 +36,9 @@ const Testimonial= () => {
                     <img src={kehide} alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-indigo-600">Kehinde Oyefeso</h5>
+                <h5 class="font-bold text-indigo-600  font-['Montserrat']">Kehinde Oyefeso</h5>
                 
-                <p class="mb-2 text-center text-gray-600 ">
+                <p class="mb-2 text-center text-gray-600  font-['Montserrat'] ">
                 " BJF Property’s greatest strengths versus other solutions I’ve used is its simplicity and ease of customization. "
             </p>
             </div>
@@ -52,9 +52,9 @@ const Testimonial= () => {
                     <img src={kehide} alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-indigo-600">Kehinde Oyefeso</h5>
+                <h5 class="font-bold text-indigo-600  font-['Montserrat']">Kehinde Oyefeso</h5>
                 
-                <p class="mb-2 text-center text-gray-600 ">
+                <p class="mb-2 text-center text-gray-600  font-['Montserrat'] ">
                 " BJF Property’s greatest strengths versus other solutions I’ve used is its simplicity and ease of customization. "
             </p>
             </div>
