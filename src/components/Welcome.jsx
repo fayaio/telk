@@ -3,11 +3,13 @@ import React from "react"
 const Welcome = () => {
     return (
         
-      <div class="relative bg-cover bg-[url('/img/hero.png')]  md:max-w-full wel-t">
-    <div class="bg-black bg-opacity-40 wel-p "/>
-    <p class="absolute text-5xl font-black text-center text-white wel-pp ">DISCOVER YOUR IDEAL HOME</p>
-    <p class="static text-5xl font-black text-center text-white  ">DISCOVER YOUR IDEAL HOME</p>
-   
+      <div class="relative mx-auto flex  md:flex-row items-center bg-cover bg-opacity-40  bg-[url('/img/hero.png')] h-[600px]">
+
+  <div class=" w-full bg-opacity-40">
+    <p class="uppercase w-full text-white text-6xl text-center">DISCOVER YOUR IDEAL HOME</p>
+    <h1 class="text-white text-center text-4xl">The ideal place to find your very own ideal home</h1>
+    
+  </div>
 </div>
     )
 }

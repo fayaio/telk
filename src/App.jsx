@@ -6,7 +6,7 @@ const App = () => {
        <NavBar/>
        <Welcome />
        <Features />
-       <Testimonial/>
+      
        <div>
        <Team/>
        <TeamMembers/>
