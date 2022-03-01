@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react"
 import logo from "../img/logo.png"
@@ -9,13 +10,13 @@ const Navbar = () => {
   <div class="container flex flex space-x-10 flex-wrap justify-between items-center mx-auto">
   
   <div class="flex items-center md:order-2">
-      <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-fdivl md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" type="button" data-dropdown-toggle="dropdown"/>
+      <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" type="button" data-dropdown-toggle="dropdown"/>
        
     
       <div class="hidden z-50 my-4 text-base pst-none bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown">
         <div class="py-3 px-4">
-          <span class="block text-sm text-black dark:text-white">Bonnie Green</span>
-          <span class="block text-sm font-medium text- truncate dark:text-gray-400">name@flowbite.com</span>
+          <span class="block text-sm text-black dark:text-white">bjfproperty</span>
+          <span class="block text-sm font-medium text- truncate dark:text-gray-400">name@bjfpropertycom.com</span>
         </div>
         <div class="py-1" aria-labelledby="dropdown">
         <p>
