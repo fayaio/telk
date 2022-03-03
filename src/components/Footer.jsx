@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
           <div class= "ml-[250px]">
             <h3 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
-              Social
+              Social Media
             </h3>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0 ml-[100px]">
               <a

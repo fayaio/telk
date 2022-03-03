@@ -28,16 +28,16 @@ const Navbar = () => {
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4">
            
-            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium" >About us</a>
+            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium font-[Montserrat]" >About us</a>
 
-            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium">Properties</a>
+            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium font-[Montserrat]">Properties</a>
               <div class="flex-shrink-0 flex items-center">
           
           <img class="hidden lg:block h-8 w-auto h-[50px]" src={logo}  alt="Bjf Properties"/>
         </div>
-            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium">Contact us</a>
+            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium font-[Montserrat]">Contact us</a>
 
-            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium">Gallery</a>
+            <a href="#" class="pt-[20px] text-2xl text-[#5F6C67] hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md text-sm font-medium font-[Montserrat]">Gallery</a>
           </div>
         </div>
       </div>

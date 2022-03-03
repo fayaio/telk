@@ -4,7 +4,7 @@ import ceo from "../img/ceo.png";
 const Team = () => {
   return (
     <div>
-      <p class="text-5xl font-medium tracking-wide text-center text-gray-80 pt-[20px]  font-['Montserrat']">
+      <p class="text-5xl font-medium tracking-wide text-center text-[#22322B] pt-[20px]  font-['Montserrat']">
         Meet our Team
       </p>
       <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"></div>
@@ -19,17 +19,17 @@ const Team = () => {
             />
           </div>
           <div class="p-8 bg-white ">
-            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+            <div class="uppercase tracking-wide text-lg font-bold text-[#0A3F70] ">
               From The Chairman
             </div>
 
-            <p class="mt-2 text-slate-500">
+            <p class="mt-2 text-slate-500 text-[#767676] ">
               While growing up one of my dreams has been to build a company that
               offers trustbased services Thus further down the years I developed
               an interest in the property development business.
             </p>
-            <div class=" tracking-wide text-sm text-indigo-500 font-semibold">
-              Read more
+            <div class=" tracking-wide text-sm text-[#0058DB] font-semibold">
+              <i>Read more</i>
             </div>
           </div>
         </div>
