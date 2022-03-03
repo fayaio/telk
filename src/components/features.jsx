@@ -5,7 +5,7 @@ import feat from "../img/feat.png"
 const Features = () => {
     return (
       <div>
-      <p class="text-5xl font-medium tracking-wide text-center text-gray-80 expl-t  font-['Montserrat']">Explore Properties in Lagos, Nigeria</p>
+      <p class="text-5xl font-medium tracking-wide text-center text-gray-80 mt-[20px]  font-['Montserrat']">Explore Properties in Lagos, Nigeria</p>
      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
     
    <div>

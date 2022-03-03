@@ -4,7 +4,7 @@ import ceo from "../img/ceo.png"
 const Team = () => {
     return (
         <div>
-             <p class="text-5xl font-medium tracking-wide text-center text-gray-80 expl-t  font-['Montserrat']">Meet our Team</p>
+             <p class="text-5xl font-medium tracking-wide text-center text-gray-80 pt-[20px]  font-['Montserrat']">Meet our Team</p>
      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"></div>
        
        

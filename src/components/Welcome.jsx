@@ -3,7 +3,7 @@ import React from "react"
 const Welcome = () => {
     return (
         
-      <div class="relative mx-auto flex  md:flex-row items-center bg-cover bg-opacity-40  bg-[url('/img/hero.png')] h-[600px]">
+      <div class="relative mx-auto flex  md:flex-row items-center bg-cover opacity-200 bg-[url('/img/hero.png')] h-[600px]">
 
   <div class=" w-full bg-opacity-40">
     <p class="uppercase w-full text-white text-6xl text-center">DISCOVER YOUR IDEAL HOME</p>
