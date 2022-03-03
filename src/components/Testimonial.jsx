@@ -12,8 +12,8 @@ SwiperCore.use([Navigation, Pagination, EffectCoverflow]);
 const Testimonial = () => {
   return (
     <div class=" bg-[url('/img/teambg.png')] opacity-100 pb-[40px]  ">
-      <h1 class="text-center text-4xl text-white font-['Montserrat'] "> 
-        Testimonial
+      <h1 class="text-center text-4xl text-white font-['Montserrat'] font-bold "> 
+        Testimonials
       </h1>
       <h1 class="text-center text-2xl text-white pb-[20px] font-['Montserrat']">
         what our customers say about us
@@ -51,11 +51,10 @@ const Testimonial = () => {
               />
             </div>
           </div>
-          <h1 class="text-center text-black pt-[20px] font-['Montserrat']">
-            {" "}
-            Kehinde Oyefeso{" "}
+          <h1 class="text-center text-[#0A3F70] pt-[20px] font-['Montserrat'] font-bold text-2xl">
+            Kehinde Oyefeso
           </h1>
-          <p class="text-center text-black pt-[20px] pl-[20px] pr-[20px] font-['Montserrat']">
+          <p class="text-center text-[#767676] pt-[20px] pl-[20px] pr-[20px] font-['Montserrat'] text-xl">
             "BJF Propertys greatest strengths versus other solutions Ive used is
             its simplicity and ease of customization"
           </p>
@@ -75,11 +74,10 @@ const Testimonial = () => {
               />
             </div>
           </div>
-          <h1 class="text-center text-black pt-[20px] font-['Montserrat']">
-            {" "}
-            Kehinde Oyefeso{" "}
+          <h1 class="text-center text-[#0A3F70] pt-[20px] font-['Montserrat'] font-bold text-2xl">
+            Kehinde Oyefeso
           </h1>
-          <p class="text-center text-black pt-[20px]  pl-[20px] pr-[20px] font-['Montserrat']">
+          <p class="text-center text-[#767676] pt-[20px]  pl-[20px] pr-[20px] font-['Montserrat'] text-xl">
             "BJF Propertys greatest strengths versus other solutions Ive used is
             its simplicity and ease of customization"
           </p>
@@ -99,11 +97,10 @@ const Testimonial = () => {
               />
             </div>
           </div>
-          <h1 class="text-center text-black pt-[20px] font-['Montserrat']">
-            {" "}
-            Kehinde Oyefeso{" "}
+          <h1 class="text-center text-[#0A3F70] pt-[20px] font-['Montserrat'] font-bold text-2xl">
+            Kehinde Oyefeso
           </h1>
-          <p class="text-center text-black pt-[20px] pl-[20px] pr-[20px] font-['Montserrat']">
+          <p class="text-center text-[#767676] pt-[20px] pl-[20px] pr-[20px] font-['Montserrat text-xl']">
             "BJF Propertys greatest strengths versus other solutions Ive used is
             its simplicity and ease of customization"
           </p>
