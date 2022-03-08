@@ -9,11 +9,11 @@ const TeamMembers = () => {
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-[20px] ml-[20px] mr-[20px]">
       <div class="flex flex-col items-center justify-center bg-white p-4 ">
         <div class="inline-flex shadow-lg border border-gray-200 shadow-gray-500/100 border-white rounded-full overflow-hidden h-40 w-40">
-		<img
-                src={team}
-                alt="img"
-                class="object-cover object-center w-full h-full"
-              />
+          <img
+            src={team}
+            alt="img"
+            class="object-cover object-center w-full h-full"
+          />
 
           <a
             href="#"
@@ -37,11 +37,11 @@ const TeamMembers = () => {
 
       <div class="flex flex-col items-center justify-center bg-white p-4 ">
         <div class="inline-flex shadow-lg border border-gray-200 rounded-full shadow-gray-500/100 overflow-hidden h-40 w-40">
-		<img
-                src={team}
-                alt="img"
-                class="object-cover object-center w-full h-full"
-              />
+          <img
+            src={team}
+            alt="img"
+            class="object-cover object-center w-full h-full"
+          />
           <a
             href=""
             class="absolute flex items-center bg-[#007AB7]  justify-center h-8 w-8 border ml-[110px] mt-[130px] rounded-full text-gray-800 border-[#007AB7]"
@@ -64,11 +64,11 @@ const TeamMembers = () => {
 
       <div class="flex flex-col items-center justify-center bg-white p-4 ">
         <div class="inline-flex shadow-lg border border-gray-200 rounded-full shadow-gray-500/100 overflow-hidden h-40 w-40">
-		<img
-                src={team}
-                alt="img"
-                class="object-cover object-center w-full h-full"
-              />
+          <img
+            src={team}
+            alt="img"
+            class="object-cover object-center w-full h-full"
+          />
           <a
             href=""
             class="absolute flex items-center bg-[#007AB7]  justify-center h-8 w-8 border ml-[110px] mt-[130px] rounded-full text-gray-800 border-[#007AB7]"
@@ -91,11 +91,11 @@ const TeamMembers = () => {
 
       <div class="flex flex-col items-center justify-center bg-white p-4 ">
         <div class="inline-flex shadow-lg border border-gray-200 rounded-full shadow-gray-500/100 overflow-hidden h-40 w-40">
-		<img
-                src={team}
-                alt="img"
-                class="object-cover object-center w-full h-full"
-              />
+          <img
+            src={team}
+            alt="img"
+            class="object-cover object-center w-full h-full"
+          />
           <a
             href=""
             class="absolute flex items-center bg-[#007AB7]  justify-center h-8 w-8 border ml-[110px] mt-[130px] rounded-full text-gray-800 border-[#007AB7]"
@@ -118,11 +118,11 @@ const TeamMembers = () => {
 
       <div class="flex flex-col items-center justify-center bg-white p-4 ">
         <div class="inline-flex shadow-lg border border-gray-200 rounded-full shadow-gray-500/100 overflow-hidden h-40 w-40">
-		<img
-                src={team}
-                alt="img"
-                class="object-cover object-center w-full h-full"
-              />
+          <img
+            src={team}
+            alt="img"
+            class="object-cover object-center w-full h-full"
+          />
           <a
             href=""
             class="absolute flex items-center bg-[#007AB7]  justify-center h-8 w-8 border ml-[110px] mt-[130px] rounded-full text-gray-800 border-[#007AB7]"
@@ -145,11 +145,11 @@ const TeamMembers = () => {
 
       <div class="flex flex-col items-center justify-center bg-white p-4 ">
         <div class="inline-flex shadow-lg border border-gray-200 rounded-full shadow-gray-500/100 overflow-hidden h-40 w-40">
-		<img
-                src={team}
-                alt="img"
-                class="object-cover object-center w-full h-full"
-              />
+          <img
+            src={team}
+            alt="img"
+            class="object-cover object-center w-full h-full"
+          />
           <a
             href=""
             class="absolute flex items-center bg-[#007AB7]  justify-center h-8 w-8 border ml-[110px] mt-[130px] rounded-full text-gray-800 border-[#007AB7]"
@@ -172,11 +172,11 @@ const TeamMembers = () => {
 
       <div class="flex flex-col items-center justify-center bg-white p-4 ">
         <div class="inline-flex shadow-lg border border-gray-200 rounded-full shadow-gray-500/100 overflow-hidden h-40 w-40">
-		<img
-                src={team}
-                alt="img"
-                class="object-cover object-center w-full h-full"
-              />
+          <img
+            src={team}
+            alt="img"
+            class="object-cover object-center w-full h-full"
+          />
           <a
             href=""
             class="absolute flex items-center bg-[#007AB7]  justify-center h-8 w-8 border ml-[110px] mt-[130px] rounded-full text-gray-800 border-[#007AB7]"

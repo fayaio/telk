@@ -1,25 +1,8 @@
-import {NavBar, Welcome, Features, Team, Footer,TeamMembers, Testimonial} from './components'
+//import {NavBar, Welcome, Features, Team, Footer,TeamMembers, Testimonial} from './components'
 
 const App = () => {
    return (
-     <div class ="min-h-screen">
-       <NavBar/>
-       <Welcome />
-       <Features />
-       <Testimonial/>
-      <div>
-      <Team/>
-      </div>
-       <div>
-      
-       <TeamMembers/>
-       <Footer/>
-       </div>
-      
-      
-      
-    
-     </div>
+    <div class=" flex h-screen justify-center bg-cover bg-center text-center bg-[url('/img/bjf.png')] "/>
      
    )
 }
