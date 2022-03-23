@@ -1,3 +1,6 @@
+import Link from 'next/link'
+
+
 const Nav = () => {
     return ( 
         <nav>
@@ -5,10 +8,10 @@ const Nav = () => {
                 <h1>BJF Properties</h1>
             </div>
 
-            <a>Gallery</a>
-            <a>Properties</a>
-            <a>About Us</a>
-            <a>Contact Us</a>
+            <Link href="/gallery"><a>Gallery</a></Link>
+            <Link href="/properties"><a>Properties</a></Link>
+            <Link href="/about"><a>About Us</a></Link>
+            <Link href="/contact" ><a>Contact Us</a></Link>
             
 
         </nav>
