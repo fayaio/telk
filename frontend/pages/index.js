@@ -19,6 +19,13 @@ export default function Home() {
         <h3 className={styles.bannerText}> YOU DREAM IT, WE BUILD IT</h3>
       </div>
 
+        {/* Explore Section */}
+        <div className={styles.exploreContainer}>
+        <h5 className={styles.exploreText}> Explore Properties In Nigeria</h5>
+
+        </div>
+
+
 
 
 
