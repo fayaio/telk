@@ -13,6 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div className={styles.homeContainer}>
+
       {/* Banner Section */}
       <div className={styles.bannerContainer}>
         <h3 className={styles.bannerText}> YOU DREAM IT, WE BUILD IT</h3>
@@ -26,10 +28,11 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <div className={styles.testimonialContainer}>
-      <div className={styles.HeaderTexts}>
         <h5 className={styles.testimonialHeaderText}> Testimonials</h5>
         <p className={styles.testimonialSubHeaderText}> What our customers say about us</p>
-        </div>
+       
+      </div>
+
       </div>
     </>
   );
