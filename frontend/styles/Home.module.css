@@ -60,3 +60,15 @@
       font-size: 13px;
   }
 }
+
+.exploreText{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  color: #22322B;
+  font-weight: 500;
+}
+
+.exploreContent{
+  height: 60vh;
+}

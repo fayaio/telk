@@ -22,7 +22,7 @@ export default function Home() {
         {/* Explore Section */}
         <div className={styles.exploreContainer}>
         <h5 className={styles.exploreText}> Explore Properties In Nigeria</h5>
-
+        <div  className={styles.exploreContent}></div>
         </div>
 
 
