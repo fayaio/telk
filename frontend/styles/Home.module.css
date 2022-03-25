@@ -32,7 +32,7 @@
   line-height: 130%;
 }
 
-@media screen and (max-width: 590px) {
+/* @media screen and (max-width: 590px) {
   .bannerText {
       font-size: 56px;
   }
@@ -66,12 +66,13 @@
   .bannerText {
       font-size: 13px;
   }
-}
+} */
 
 .exploreText{
-  text-align: center;
+  text-align: left;
   font-family: Montserrat;
-  font-size: 25px;
+  padding-left: 72px;
+  font-size: 21px;
   color: #22322B;
   font-weight: 500;
 }

@@ -20,18 +20,21 @@ export default function Home() {
         <h3 className={styles.bannerText}> YOU DREAM IT, WE BUILD IT</h3>
       </div>
 
-      {/* Explore Section */}
-      <div className={styles.exploreContainer}>
-        <h5 className={styles.exploreText}> Explore Properties In Nigeria</h5>
-        <div className={styles.exploreContent}></div>
+      {/* Chairman Section */}
+      <div className={styles.chairmanContainer}>
+        <h5 className={styles.chairmanText}> From Our Chairman </h5>
+        <div className={styles.chairmanContent}></div>
       </div>
 
+
+
+
       {/* Testimonials Section */}
-      <div className={styles.testimonialContainer}>
+      {/* <div className={styles.testimonialContainer}>
         <h5 className={styles.testimonialHeaderText}> Testimonials</h5>
         <p className={styles.testimonialSubHeaderText}> What our customers say about us</p>
        
-      </div>
+      </div> */}
 
       </div>
     </>
