@@ -67,20 +67,95 @@
       font-size: 13px;
   }
 } */
-
-.exploreText{
-  text-align: left;
+.cmHeader{
+  margin-top: 55px;
+  text-align: center;
   font-family: Montserrat;
   padding-left: 72px;
   font-size: 21px;
   color: #22322B;
   font-weight: 500;
+ 
 }
 
-.exploreContent{
-  height: 60vh;
+.cmSection{
+width: 80%;
+background-color: #22322B;
+margin: auto;
+height: 75vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
+.cmWrapper{
+  margin: 0 auto;
+  display: flex;
+
+}
+.cmImgwrapper{
+  width: 40%;
+}
+
+.cmImg{
+  height: 420px;
+ width: 420px;
+ margin: auto;
+  
+  
+}
+
+.cmContent{
+  width: 55%;
+  padding: 15px;
+    /* margin: auto; */
+    margin-right: 12px;
+    margin-left: 12px;
+    background: rgb(250, 250, 250);
+}
+
+.cmTitle{
+  margin-bottom: 0px;
+  font-weight: 600;
+  line-height: 10px;
+  color: #0b5aa4;
+  font-family: Montserrat;
+  font-size: 19px;
+  padding-left: 2px;
+}
+
+.cmSubtitle{
+  font-weight: bold;
+  font-family: Montserrat;
+  color: #074b89;
+  font-size: 23px;
+}
+
+.cmParagraph{
+  padding-top: 8px;
+    font-family: Montserrat;
+    color: #020202;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.cmAnchor{
+  color: #0058DB;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: Montserrat;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+/* 
 .testimonialContainer{
   background-image: url(../public/testimonialbg.svg);
   width: 100%;
@@ -100,8 +175,8 @@
 }
 
 .testimonialSubHeaderText{
-  color: #ECEAEA;
+  color: #eceaead0;
   font-size: 18px;
   margin: 0;
 
-}
+} */
