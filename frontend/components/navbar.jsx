@@ -23,17 +23,17 @@ const Nav = () => {
           
 
             <div className="navlink">
-              <Link onClick={closeMobileMenu} href="/about">
+              <Link onClick={closeMobileMenu} href="/">
                 <a>About Us</a>
               </Link>
             </div>
-            <div className="navlink">
+            {/* <div className="navlink">
               <Link onClick={closeMobileMenu} href="/properties">
                 <a>Properties</a>
               </Link>
-            </div>
+            </div> */}
             <div className="navlink">
-              <Link  onClick={closeMobileMenu} href="/gallery">
+              <Link  onClick={closeMobileMenu} href="/">
                 <a>Gallery</a>
               </Link>
             </div>
