@@ -21,17 +21,12 @@ export default function Home() {
         </div>
 
         {/* Chairman Section */}
-        <h5 className={styles.cmHeader}> From Our Chairman </h5>
-
-        <div className={styles.cmSection}>
-          <div className={styles.cmWrapper}>
-          <div className={styles.cmImgwrapper}>
-            <img className={styles.cmImg} src="./chairmanpic.svg" alt="" />
-            </div>
+        <section className={styles.cm}>
+          <div className={styles.main}>
+            <img src="./chairmanpic.svg" alt="" />
             <div className={styles.cmContent}>
-              <h4 className={styles.cmTitle}> BJF Properties </h4>
-              <h2 className={styles.cmSubtitle}>Chairman's Speech </h2>
-              <p className={styles.cmParagraph}>
+              <h1 className={styles.cmHeader}>From The Chairman</h1>
+              <p className={styles.cmText}>
                 While growing up, one of my dreams has been to build a company
                 that offers trust-based services. Thus, further down the years,
                 I developed an interest in the property development business.
@@ -40,17 +35,23 @@ export default function Home() {
                 family was one of those to own land in the then developing area
                 of Lagos State in the early 1990s.
               </p>
-              <a href="#" className={styles.cmAnchor}>Read More</a>
+              <div className={styles.cmAnchor} type="button">
+              
+                Read More
+              </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        {/* Testimonials Section */}
-        {/* <div className={styles.testimonialContainer}>
-        <h5 className={styles.testimonialHeaderText}> Testimonials</h5>
-        <p className={styles.testimonialSubHeaderText}> What our customers say about us</p>
-       
-      </div> */}
+        {/* Certificate Section */}
+        <div className={styles.cert}>
+        <h5 className={styles.certHeader}> Certificate</h5>
+        <div className={styles.certimg}>
+
+        <Image src="/certificate.svg" alt=""  width={500} height={500}/>
+        </div>
+      </div>
+
       </div>
     </>
   );

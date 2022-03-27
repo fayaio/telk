@@ -7,7 +7,7 @@
 
 .bannerContainer{
   background-image: url(../public/bannerimg.svg);
-  min-height: 78vh;
+  min-height: 85vh;
   width:100%;
   display: flex;
   flex-direction: column;
@@ -22,124 +22,63 @@
 
 .bannerText{
   color: white;
-  text-shadow: 5px 5px 10px black;
-  font-size: 65px;
-  font-family: Roboto;
+  text-shadow: 5px 5px 10px rgb(65, 64, 64);
+  font-size: 75px;
+  font-family:  Roboto;
   text-align: center;
   margin: auto;
   width: 90%;
-  color: #fff;
-  line-height: 130%;
+  color: rgb(255, 255, 255);
+  
 }
-
-/* @media screen and (max-width: 590px) {
-  .bannerText {
-      font-size: 56px;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .bannerText {
-      font-size: 54px;
-  }
-}
-
-@media screen and (max-width: 509px) and (min-width: 300px) {
-  .bannerText {
-      font-size: 48px;
-  }
-}
-
-@media screen and (max-width: 299px) {
-  .bannerText {
-      font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 260px) {
-  .bannerText {
-      font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 170px) {
-  .bannerText {
-      font-size: 13px;
-  }
-} */
-.cmHeader{
-  margin-top: 55px;
-  text-align: center;
-  font-family: Montserrat;
-  padding-left: 72px;
-  font-size: 21px;
-  color: #22322B;
-  font-weight: 500;
+.cm{
+  width:80%;
+  margin: 70px auto;
+  padding: 5px 0px;
+  background-color: #29545E;
  
 }
 
-.cmSection{
-width: 80%;
-background-color: #22322B;
-margin: auto;
-height: 75vh;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.cmWrapper{
-  margin: 0 auto;
-  display: flex;
-
-}
-.cmImgwrapper{
+.cm img{
+  height: 400px;
   width: 40%;
 }
 
-.cmImg{
-  height: 420px;
- width: 420px;
- margin: auto;
-  
-  
+.main{
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  justify-content: space-around;
 }
 
 .cmContent{
-  width: 55%;
-  padding: 15px;
-    /* margin: auto; */
-    margin-right: 12px;
-    margin-left: 12px;
-    background: rgb(250, 250, 250);
-}
-
-.cmTitle{
-  margin-bottom: 0px;
-  font-weight: 600;
-  line-height: 10px;
-  color: #0b5aa4;
+ width: 60%;
+ height: auto;
+ margin: 6px ;
+ padding: 13px;
+ background-color: rgb(251, 251, 251);
+ flex-wrap: wrap;
+ 
+}.cmHeader{
+  color: #0A3F70;
   font-family: Montserrat;
-  font-size: 19px;
-  padding-left: 2px;
+   font-size: 24px;
 }
 
-.cmSubtitle{
-  font-weight: bold;
+
+.cmText{
   font-family: Montserrat;
-  color: #074b89;
-  font-size: 23px;
-}
-
-.cmParagraph{
-  padding-top: 8px;
-    font-family: Montserrat;
-    color: #020202;
-    font-size: 18px;
-    line-height: 29px;
+  font-size: 14px;
+  line-height: 30px;
+  color:#161616;
+  letter-spacing: 0.4px;
 }
 
 .cmAnchor{
+  
   color: #0058DB;
   text-decoration: underline;
   font-style: italic;
@@ -148,35 +87,83 @@ align-items: center;
 }
 
 
+.cmAnchor:hover{
+  background: transparent;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+  .main{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .cm img{
+    height: 300px;
+    width: 90%;
+  }
+  .cmContent{
+    width: 90%;
+    /* height: auto;
+    margin: 6px ;
+    padding: 13px;
+    background-color: rgb(251, 251, 251);
+    flex-wrap: wrap; */
+    
+   }
+}
 
 
 
 
 
 
-
-/* 
-.testimonialContainer{
+.cert{
   background-image: url(../public/testimonialbg.svg);
   width: 100%;
   font-family: Montserrat;
   text-align: center;
-  min-height: 84vh;
+  min-height: auto;
+  
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 7px;
+ 
 }
 
 
-.testimonialHeaderText{
+
+
+.certHeader{
   font-size: 27px;
   color: #fff;
-  margin: 0;
+  margin: 12px;
   padding-top: 50px;
   letter-spacing: 1px;
 
 }
 
-.testimonialSubHeaderText{
-  color: #eceaead0;
-  font-size: 18px;
-  margin: 0;
+.certimg{
+  width: 55%;
+  margin: auto;
+  background-color: #ffffff;
+  padding-bottom: 12px;
+}
 
-} */
+.certimg img{
+
+ max-height: auto;
+}
+
+@media screen and (max-width:800px) {
+  .certimg{
+    width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+    padding-bottom: 12px;
+  }
+
+}
