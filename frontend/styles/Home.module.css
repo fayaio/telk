@@ -1,14 +1,13 @@
-.homeContainer{
+.homeContainer {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  }
+}
 
-
-.bannerContainer{
+.bannerContainer {
   background-image: url(../public/bannerimg.svg);
   min-height: 85vh;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,31 +19,30 @@
   margin-top: 7px;
 }
 
-.bannerText{
+.bannerText {
   color: white;
   text-shadow: 5px 5px 10px rgb(65, 64, 64);
   font-size: 75px;
-  font-family:  Roboto;
+  font-family: Roboto;
   text-align: center;
   margin: auto;
   width: 90%;
   color: rgb(255, 255, 255);
-  
 }
-.cm{
-  width:80%;
+.cm {
+  width: 80%;
   margin: 70px auto;
   padding: 5px 0px;
-  background-color: #29545E;
- 
+  background-color: #29545e;
+  border-radius: 14px;
 }
 
-.cm img{
+.cm img {
   height: 400px;
   width: 40%;
 }
 
-.main{
+.main {
   width: 1130px;
   max-width: 95%;
   margin: 0 auto;
@@ -54,116 +52,185 @@
   justify-content: space-around;
 }
 
-.cmContent{
- width: 60%;
- height: auto;
- margin: 6px ;
- padding: 13px;
- background-color: rgb(251, 251, 251);
- flex-wrap: wrap;
- 
-}.cmHeader{
-  color: #0A3F70;
+.cmContent {
+  width: 60%;
+  height: auto;
+  margin: 6px;
+  padding: 13px;
+  background-color: rgb(251, 251, 251);
+  flex-wrap: wrap;
+}
+.cmHeader {
+  color: #0a3f70;
   font-family: Montserrat;
-   font-size: 24px;
+  font-size: 24px;
 }
 
-
-.cmText{
+.cmText {
   font-family: Montserrat;
   font-size: 14px;
   line-height: 30px;
-  color:#161616;
+  color: #161616;
   letter-spacing: 0.4px;
 }
 
-.cmAnchor{
-  
-  color: #0058DB;
+.cmAnchor {
+  color: #0058db;
   text-decoration: underline;
   font-style: italic;
   font-family: Montserrat;
   font-size: 17px;
 }
 
-
-.cmAnchor:hover{
+.cmAnchor:hover {
   background: transparent;
 
   cursor: pointer;
 }
 
-@media screen and (max-width:800px) {
-  .main{
+@media screen and (max-width: 800px) {
+  .main {
     display: flex;
     flex-direction: column;
-
   }
-  .cm img{
+  .cm img {
     height: 300px;
     width: 90%;
   }
-  .cmContent{
+  .cmContent {
     width: 90%;
     /* height: auto;
     margin: 6px ;
     padding: 13px;
     background-color: rgb(251, 251, 251);
     flex-wrap: wrap; */
-    
-   }
+  }
 }
 
-
-
-
-
-
-.cert{
+.cert {
   background-image: url(../public/testimonialbg.svg);
   width: 100%;
   font-family: Montserrat;
   text-align: center;
   min-height: auto;
-  
+
   object-fit: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-top: 7px;
- 
+    padding-bottom: 40px;
 }
 
-
-
-
-.certHeader{
+.certHeader {
   font-size: 27px;
   color: #fff;
   margin: 12px;
-  padding-top: 50px;
+  padding-top: 30px;
   letter-spacing: 1px;
-
 }
 
-.certimg{
+.certimg {
   width: 55%;
   margin: auto;
   background-color: #ffffff;
   padding-bottom: 12px;
 }
 
-.certimg img{
-
- max-height: auto;
+.certimg img {
+  max-height: auto;
 }
 
-@media screen and (max-width:800px) {
-  .certimg{
+@media screen and (max-width: 800px) {
+  .certimg {
     width: 90%;
     margin: auto;
     background-color: #ffffff;
     padding-bottom: 12px;
   }
+}
 
+.abtContainer {
+  width: 100%;
+  background-color: #f7f8f8;
+  padding-bottom: 40px;
+}
+
+.abtbanner {
+  background-color: #29545e;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+.abtbanner h1{
+  font-family: Montserrat;
+  font-size: 27px;
+  text-align: center;
+  color: #eeeeee;
+}
+
+.speech{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  background-color: #ffffff;
+    box-shadow: 1px 1px 6px rgba(148, 148, 148, 0.555);
+}
+
+/* .speechbox{
+  display: flex;
+ margin: 20px;
+
+
+}
+
+
+.speechbox img{
+width: 530px;
+height: 770px;
+
+} */
+
+.spcontent{
+  display: flex;
+  
+  flex-direction: column;
+  font-family: Montserrat;
+  margin: auto;
+  padding: 36px;
+  justify-content: flex-start;
+  
+}
+
+.spcontent h4{
+font-size: 30px;
+font-weight: 600;
+color: #063d8f;
+margin-bottom: 8px;
+}
+
+.spcontent h2{
+
+color: #0058db;
+font-size: 19px;
+margin-bottom:6px;
+}
+
+ .hcm{
+  color: #1b46bd;
+  font-size: 16.5px;
+  font-weight: 400;
+}
+
+.spcontent p{
+  line-height: 39px;
+}
+
+.paras{
+ margin-top: 15px;
+}
+
+.spcontent h5{
+  font-size: 19px;
+  color: #0058db;
 }

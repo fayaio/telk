@@ -37,7 +37,8 @@ export default function Home() {
               </p>
               <div className={styles.cmAnchor} type="button">
               
-                Read More
+                <a href="/about"> Read More</a>
+               
               </div>
             </div>
           </div>
@@ -45,7 +46,7 @@ export default function Home() {
 
         {/* Certificate Section */}
         <div className={styles.cert}>
-        <h5 className={styles.certHeader}> Certificate</h5>
+        <h5 className={styles.certHeader}> We Are Certified </h5>
         <div className={styles.certimg}>
 
         <Image src="/certificate.svg" alt=""  width={500} height={500}/>

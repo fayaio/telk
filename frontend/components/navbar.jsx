@@ -21,19 +21,21 @@ const Nav = () => {
           {/* <FontAwesomeIcon className="nav-close" icon={faXmark}></FontAwesomeIcon> */}
           <div className={click ? "navitems active" : "navitems"}>
           
+          <div className="navlink">
+              <Link onClick={closeMobileMenu} href="/">
+                <a>Home</a>
+              </Link>
+            </div>
 
             <div className="navlink">
-              <Link onClick={closeMobileMenu} href="/">
+              
+              <Link onClick={closeMobileMenu} href="/about">
                 <a>About Us</a>
               </Link>
             </div>
-            {/* <div className="navlink">
-              <Link onClick={closeMobileMenu} href="/properties">
-                <a>Properties</a>
-              </Link>
-            </div> */}
+            
             <div className="navlink">
-              <Link  onClick={closeMobileMenu} href="/">
+              <Link  onClick={closeMobileMenu} href="/gallery">
                 <a>Gallery</a>
               </Link>
             </div>
