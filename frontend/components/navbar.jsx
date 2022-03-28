@@ -35,7 +35,7 @@ const Nav = () => {
             </div>
             
             <div className="navlink">
-              <Link  onClick={closeMobileMenu} href="/gallery">
+              <Link  onClick={closeMobileMenu} href="/">
                 <a>Gallery</a>
               </Link>
             </div>

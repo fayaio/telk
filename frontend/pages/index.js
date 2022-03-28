@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faHighlighter } from "@fortawesome/free-solid-svg-icons";
+
+
 
 export default function Home() {
   return (
@@ -17,11 +16,40 @@ export default function Home() {
       <div className={styles.homeContainer}>
         {/* Banner Section */}
         <div className={styles.bannerContainer}>
+        <div className={styles.bannercontent}>
           <h3 className={styles.bannerText}> YOU DREAM IT, WE BUILD IT</h3>
+         <p className={styles.bannerp}>Materialize Your Ideal Property With Us</p>
+</div>
         </div>
 
+<div className={styles.explore}>
+  <h1 className={styles.exploreh}>Explore Properties In Nigeria</h1>
+        <div className={styles.cardcontainer}>
+        <div className={styles.explorecards}>
+    <div className={styles.explorecard} >
+      <h3>What we do</h3>
+      <p>BJF Properties and Development Company Ltd. deals with Property Development, Property Management, Buying and Selling of property, Property Consultancy and much more.
+</p>
+    </div>
+
+    <div className={styles.explorecard}>
+    <h3>Our Vision</h3>
+    <p>To be the Topmost property solution provider globally.</p>
+    </div>
+
+    <div className={styles.explorecard} >
+    <h3>Our Mission</h3>
+      <p>Our Mission is to provide both clients Locally and in Diaspora with the property of their dreams without having to go through family and friends' Trust issues.
+</p>
+    </div>
+    </div>
+  </div>
+  </div>
+
         {/* Chairman Section */}
-        <section className={styles.cm}>
+        
+        <section className={styles.cmcon} >
+          <div className={styles.cm}>
           <div className={styles.main}>
             <img src="./chairmanpic.svg" alt="" />
             <div className={styles.cmContent}>
@@ -38,7 +66,7 @@ export default function Home() {
               <div className={styles.cmAnchor} type="button">
               
                 <a href="/about"> Read More</a>
-               
+                </div>
               </div>
             </div>
           </div>
