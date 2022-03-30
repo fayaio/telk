@@ -85,9 +85,78 @@ export default function Home() {
         </div>
 
 
-        {/* Chairman Section */}
 
-        <section className={styles.cmcon}>
+        <div className={styles.teamSection}>
+				<div className={styles.teamContainer}>
+					<h3 className={styles.teamHeader}> Meet The Team </h3>
+					<div className={styles.allTeams}>
+						<div className={styles.team}>
+							<div className={styles.memeberFrame}>
+								<img className={styles.memeberImg} src="/CEO.svg" alt="" />
+								<a href="https://www.google.com/">
+									<img className={styles.linkden} src="/Linkedin.svg" alt="" />
+								</a>
+							</div>
+							<div className={styles.teamInfo}>
+								<h4 className={styles.memberName}> Mr Samuel Jegede </h4>
+								<p className={styles.memberRole}> Executive Chairman </p>
+							</div>
+						</div>
+						<div className={styles.team}>
+							<div className={styles.memeberFrame}>
+								<img className={styles.memeberImg} src="/Rufus.svg" alt="" />
+								<a href="https://www.google.com/">
+									<img className={styles.linkden} src="/Linkedin.svg" alt="" />
+								</a>
+							</div>
+							<div className={styles.teamInfo}>
+								<h4 className={styles.memberName}> Mr Rufus Idowu </h4>
+								<p className={styles.memberRole}> General Manager </p>
+							</div>
+						</div>
+						<div className={styles.team}>
+							<div className={styles.memeberFrame}>
+								<img className={styles.memeberImg} src="/Ann.svg" alt="" />
+								<a href="https://www.google.com/">
+									<img className={styles.linkden} src="/Linkedin.svg" alt="" />
+								</a>
+							</div>
+							<div className={styles.teamInfo}>
+								<h4 className={styles.memberName}> Ann Ohaegbue </h4>
+								<p className={styles.memberRole}> Executive Secretary </p>
+							</div>
+						</div>
+						<div className={styles.team}>
+							<div className={styles.memeberFrame}>
+								<img className={styles.memeberImg} src="/Mark.svg" alt="" />
+								<a href="https://www.google.com/">
+									<img className={styles.linkden} src="/Linkedin.svg" alt="" />
+								</a>
+							</div>
+							<div className={styles.teamInfo}>
+								<h4 className={styles.memberName}> Mark Aliu </h4>
+								<p className={styles.memberRole}> Legal Adviser </p>
+							</div>
+						</div>
+						
+			
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        {/* Chairman Section */}
+        {/* <section className={styles.cmcon}>
           <div className={styles.cm}>
             <div className={styles.main}>
               <img src="./chairmanpic.svg" alt="" />
@@ -108,7 +177,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
      
       </div>

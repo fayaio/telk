@@ -183,6 +183,140 @@
 }
 
 
+.teamSection {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.teamContainer {
+  width: 80%;
+  margin: auto;
+}
+
+
+
+.teamHeader {
+  text-align: center;
+  font-family: Montserrat;
+  color: #0a3f70;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.allTeams {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.memeberFrame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  height: 200px;
+  width: 200px;
+  border-radius: 190px;
+  box-shadow: 3px 3px 10px rgb(195, 196, 202);
+}
+
+.memeberImg {
+  height: 170px;
+  width: 170px;
+}
+
+.linkden {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -38px;
+}
+
+.teamInfo {
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.memberName {
+  color: #007ab7;
+  font-size: 22px;
+  font-family: Montserrat;
+}
+
+.memberRole {
+  color: #5f5c5c;
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 1240px) {
+  .allTeams {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .allTeams {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .teamHeader {
+      font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .memeberFrame {
+      height: 150px;
+      width: 150px;
+  }
+  .memeberImg {
+      height: 130px;
+      width: 130px;
+  }
+  .linkden {
+      height: 40px;
+      width: 40px;
+      margin-top: 45px;
+  }
+  .memberName {
+      color: #007ab7;
+      
+      font-size: 16px;
+  }
+  .memberRole {
+      color: #5f5c5c;
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .teamHeader {
+      font-size: 25px;
+  }
+  .teamContainer {
+      width: 80%;
+      margin: 0px;
+  }
+}
+
 
 
 
