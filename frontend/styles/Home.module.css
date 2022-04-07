@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* Banner styling */
 .bannerContainer {
   background-image: url(../public/bannerimg.svg);
   min-height: 80vh;
@@ -25,7 +26,6 @@
   text-align: center;
   margin: auto;
   width: 90%;
-  
 }
 
 .bannerText {
@@ -42,32 +42,30 @@
   color: rgb(240, 240, 240);
 }
 
-
 @media screen and (max-width: 590px) {
-  .bannerText  {
-      font-size: 56px;
+  .bannerText {
+    font-size: 56px;
   }
 }
 
 @media screen and (max-width: 510px) {
   .bannerText {
-      font-size: 54px;
+    font-size: 54px;
   }
 }
 
 @media screen and (max-width: 509px) and (min-width: 300px) {
-  .bannerText  {
-      font-size: 48px;
+  .bannerText {
+    font-size: 48px;
   }
   .bannerp {
     font-size: 20px;
   }
-  
 }
 
 @media screen and (max-width: 299px) {
-  .bannerText  {
-      font-size: 40px;
+  .bannerText {
+    font-size: 40px;
   }
   .bannerp {
     font-size: 17px;
@@ -76,36 +74,29 @@
 
 @media screen and (max-width: 260px) {
   .bannerText {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 170px) {
-  .bannerText  {
-      font-size: 13px;
+  .bannerText {
+    font-size: 13px;
   }
 }
 
+/* Explore styling */
 
-
-
-
-
-
-
-.explore{
+.explore {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.exploreheader{
+.exploreheader {
   text-align: center;
   font-family: Montserrat;
-  
-  color: #0a3f70;
+  color: #2d2d2d;
   font-size: 30px;
   font-weight: 500;
-  
 }
 
 .card_image img {
@@ -113,8 +104,6 @@
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 .cards {
   display: grid;
@@ -125,20 +114,16 @@
 }
 
 @media screen and (max-width: 900px) {
-
   .cards {
-   margin: 15px;
+    margin: 15px;
     grid-template-columns: repeat(3, 1fr);
-    
   }
 }
 
 @media screen and (max-width: 730px) {
-
   .cards {
-   margin: 25px;
+    margin: 25px;
     grid-template-columns: repeat(1, 1fr);
-    
   }
 }
 
@@ -146,8 +131,6 @@
   display: flex;
   padding: 1rem;
 }
-
-
 
 .card {
   background-color: white;
@@ -161,252 +144,25 @@
 .card_content {
   padding: 1rem;
   font-family: Montserrat;
- 
 }
 
 .card_title {
-  color: #000000;
+  color: #44689a;
   letter-spacing: 1px;
-  
   margin: 0px;
   font-size: 18px;
   font-weight: 700;
-  
 }
 
 .card_text {
-  color: #202020;
+  color: #3d3d3d;
   font-size: 15px;
   line-height: 1.5;
   /* margin-bottom: 1.25rem;     */
   font-weight: 400;
 }
 
-
-.teamSection {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 70px;
-}
-
-.teamContainer {
-  width: 80%;
-  margin: auto;
-}
-
-
-
-.teamHeader {
-  text-align: center;
-  font-family: Montserrat;
-  color: #0a3f70;
-  font-size: 30px;
-  font-weight: 500;
-}
-
-.allTeams {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  margin-top: 40px;
-}
-
-.team {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- 
-}
-
-.memeberFrame {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #eeeeee;
-  height: 200px;
-  width: 200px;
-  border-radius: 190px;
-  box-shadow: 3px 3px 10px rgb(195, 196, 202);
-}
-
-.memeberImg {
-  height: 170px;
-  width: 170px;
-}
-
-.linkden {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  margin-top: 50px;
-  margin-left: -38px;
-}
-
-.teamInfo {
-  width: 100%;
-  text-align: center;
-  margin-top: 12px;
-}
-
-.memberName {
-  color: #007ab7;
-  font-size: 22px;
-  font-family: Montserrat;
-}
-
-.memberRole {
-  color: #5f5c5c;
-  font-family: Montserrat;
-  font-size: 16px;
-  margin-top: -20px;
-}
-
-@media screen and (max-width: 1240px) {
-  .allTeams {
-      grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 598px) {
-  .allTeams {
-      grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .teamHeader {
-      font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .memeberFrame {
-      height: 150px;
-      width: 150px;
-  }
-  .memeberImg {
-      height: 130px;
-      width: 130px;
-  }
-  .linkden {
-      height: 40px;
-      width: 40px;
-      margin-top: 45px;
-  }
-  .memberName {
-      color: #007ab7;
-      
-      font-size: 16px;
-  }
-  .memberRole {
-      color: #5f5c5c;
-      font-size: 10px;
-  }
-}
-
-@media screen and (max-width: 310px) {
-  .teamHeader {
-      font-size: 25px;
-  }
-  .teamContainer {
-      width: 80%;
-      margin: 0px;
-  }
-}
-
-
-
-
-
-.cmcon{
-  width: 100%;
-  background-color: #f7f8f8;
-  height: auto;
-  padding:30px 0px;
-}
-
-.cm {
-  width: 80%;
-  margin: 70px auto;
-  padding: 5px 0px;
-  border-radius: 14px;
-  background-color: #29545e;
-  height: auto;
-}
-
-.cm img {
-  height: 400px;
-  width: 40%;
-}
-
-.main {
- 
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  column-gap: 40px;
-  justify-content: space-around;
-}
-
-.cmContent {
-  width: 60%;
-  height: auto;
-  margin: 6px;
-  padding: 13px;
-  background-color: rgb(251, 251, 251);
-  flex-wrap: wrap;
-}
-.cmHeader {
-  color: #0a3f70;
-  font-family: Montserrat;
-  font-size: 24px;
-}
-
-.cmText {
-  font-family: Montserrat;
-  font-size: 14px;
-  line-height: 30px;
-  color: #161616;
-  letter-spacing: 0.4px;
-}
-
-.cmAnchor {
-  color: #0058db;
-  text-decoration: underline;
-  font-style: italic;
-  font-family: Montserrat;
-  font-size: 17px;
-}
-
-.cmAnchor:hover {
-  background: transparent;
-
-  cursor: pointer;
-}
-
-@media screen and (max-width: 800px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
-  .cm img {
-    height: 300px;
-    width: 90%;
-  }
-  .cmContent {
-    width: 90%;
-    /* height: auto;
-    margin: 6px ;
-    padding: 13px;
-    background-color: rgb(251, 251, 251);
-    flex-wrap: wrap; */
-  }
-}
+/* Certificate styling */
 
 .cert {
   background-image: url(../public/testimonialbg.svg);
@@ -451,6 +207,340 @@
     padding-bottom: 12px;
   }
 }
+
+.cmsection {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.cm {
+  background-color: #29545e;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 23px;
+  height: 390px;
+}
+
+.cmimage {
+  height: 390px;
+  max-width: 100%;
+}
+.cmContent {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.105),
+    rgba(255, 255, 255, 0.561),
+    rgba(255, 255, 255, 0.788),
+    rgb(255, 255, 255)
+  );
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat;
+
+  justify-content: center;
+  width: 100%;
+  margin-left: 20px;
+  padding: 15px;
+}
+
+.cmHeader {
+  color: #292929;
+  text-shadow: 1px 0.5px #494949;
+  letter-spacing: 1px;
+  margin: 0px;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.cmText {
+  color: #242424;
+  /* text-shadow: 1px 0.5px #86868633; */
+  font-size: 15px;
+  line-height: 1.5;
+  /* margin-bottom: 1.25rem;     */
+  font-weight: 300;
+}
+
+.cmAnchor {
+  color: #0961cc;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: Montserrat;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.cmAnchor:hover {
+  background: transparent;
+
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1042px) {
+  .cm {
+    padding: 15px;
+    height: 330px;
+  }
+
+  .cmimage img {
+    height: 330px;
+    width: 240px;
+  }
+  .cmContent {
+    padding: 10px;
+
+    height: 300px;
+  }
+
+  .cmHeader {
+    font-size: 20px;
+  }
+
+  .cmText {
+    color: #242424;
+    font-size: 13px;
+  }
+
+  .cmAnchor {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .cmsection {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .cmsection {
+    max-width: 93%;
+  }
+}
+@media screen and (max-width: 545px) {
+  .cmsection {
+    max-width: 85%;
+  }
+
+  .cm {
+    flex-direction: column;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+  }
+
+  .cmimage {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .cmimage img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .cmContent {
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0),
+      rgba(41, 84, 94, 0.465),
+      rgb(41, 84, 94)
+    );
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+
+    margin: auto;
+
+    margin-top: -5px;
+    padding: 17px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: fit-content;
+  }
+
+  .cmHeader {
+    font-size: 19px;
+  }
+
+  .cmText {
+    font-size: 15px;
+  }
+
+  .cmAnchor {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .cmContent {
+    width: 85%;
+
+    margin: auto;
+    margin-top: -5px;
+    padding: 25px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .cmContent {
+    width: 100%;
+
+    margin: auto;
+    margin-top: -5px;
+    padding: 0px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: fit-content;
+  }
+}
+
+/* Team styling */
+
+.teamSection {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.teamContainer {
+  width: 80%;
+  margin: auto;
+}
+.teamHeader {
+  text-align: center;
+  font-family: Montserrat;
+  color: #2d2d2d;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.allTeams {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.memeberFrame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  height: 200px;
+  width: 200px;
+  border-radius: 190px;
+  box-shadow: 3px 3px 10px rgb(195, 196, 202);
+}
+
+.memeberImg {
+  height: 170px;
+  width: 170px;
+}
+
+.teamInfo {
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.memberName {
+  color: #007ab7;
+  font-size: 22px;
+  font-family: Montserrat;
+}
+
+.memberRole {
+  color: #5f5c5c;
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 1240px) {
+  .allTeams {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .allTeams {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .teamHeader {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .memeberFrame {
+    height: 150px;
+    width: 150px;
+  }
+  .memeberImg {
+    height: 130px;
+    width: 130px;
+  }
+  .linkden {
+    height: 40px;
+    width: 40px;
+    margin-top: 45px;
+  }
+  .memberName {
+    color: #007ab7;
+
+    font-size: 16px;
+  }
+  .memberRole {
+    color: #5f5c5c;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .teamHeader {
+    font-size: 25px;
+  }
+  .teamContainer {
+    width: 80%;
+    margin: 0px;
+  }
+}
+
+
+
+
+
+
+
 
 .abtContainer {
   width: 100%;
