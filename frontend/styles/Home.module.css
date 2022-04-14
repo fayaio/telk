@@ -6,8 +6,9 @@
 
 /* Banner styling */
 .bannerContainer {
-  background-image: url(../public/bannerimg.svg);
-  min-height: 80vh;
+  background-image: url(../public/bb.svg);
+  padding-top: 130px;
+  padding-bottom: 130px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,12 +18,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 7px;
+  margin-top: 4px;
+  margin-bottom: 50px;
 }
 
 .bannercontent {
-  text-shadow: 5px 5px 10px rgb(65, 64, 64);
-  font-family: Roboto;
+  /* text-shadow: 5px 5px 10px rgb(65, 64, 64); */
+  font-family: Raleway;
   text-align: center;
   margin: auto;
   width: 90%;
@@ -35,52 +37,101 @@
 }
 
 .bannerp {
-  text-shadow: 5px 5px 10px rgb(12, 11, 11);
+  /* text-shadow: 5px 5px 10px rgb(12, 11, 11); */
   color: white;
   font-weight: 200;
   font-size: 30px;
   color: rgb(240, 240, 240);
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 1047px) {
   .bannerText {
-    font-size: 56px;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .bannerText {
-    font-size: 54px;
-  }
-}
-
-@media screen and (max-width: 509px) and (min-width: 300px) {
-  .bannerText {
-    font-size: 48px;
+    font-size: 60px;
   }
   .bannerp {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  
+}
+@media screen and (max-width: 897px) {
+  .bannerText {
+    font-size: 50px;
+  }
+
+  
+}
+
+@media screen and (max-width: 748px) {
+  .bannerText {
+    font-size: 40px;
+  }
+  .bannerp {
+    font-size: 21px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 599px) {
+  .bannerText {
+    font-size: 35px;
+  }
+
+  .bannercontent {
+   
+    width: 95%;
+  }
+
+  .bannerp {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .bannerText {
+    font-size: 28px;
+  }
+
+ 
+}
+
+
+
+
+@media screen and (max-width: 401px) and (min-width: 300px) {
+  .bannerText {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .bannerp {
+    font-size: 18px;
+  }
+  .bannercontent {
+   
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 299px) {
   .bannerText {
-    font-size: 40px;
+    font-size: 35px;
   }
   .bannerp {
     font-size: 17px;
   }
 }
 
-@media screen and (max-width: 260px) {
+@media screen and (max-width: 280px) {
   .bannerText {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
 @media screen and (max-width: 170px) {
   .bannerText {
-    font-size: 13px;
+    font-size: 23px;
   }
 }
 
@@ -89,13 +140,14 @@
 .explore {
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 .exploreheader {
   text-align: center;
-  font-family: Montserrat;
-  color: #2d2d2d;
-  font-size: 30px;
+  font-family: Raleway;
+  color: #242424;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -125,6 +177,16 @@
     margin: 25px;
     grid-template-columns: repeat(1, 1fr);
   }
+  
+  
+}
+
+@media screen and (max-width: 500px) {
+  .exploreheader {
+    font-size: 24px;
+   
+  }
+
 }
 
 .cards_item {
@@ -143,7 +205,7 @@
 
 .card_content {
   padding: 1rem;
-  font-family: Montserrat;
+  font-family: Raleway;
 }
 
 .card_title {
@@ -162,12 +224,145 @@
   font-weight: 400;
 }
 
+
+
+.swiper{
+  position: relative;
+  width: 100%;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/testimonialbg.svg);
+  overflow: hidden;
+  align-items: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ padding-bottom: 40px;
+ padding-top: 20px;
+  margin-top: 80px;
+  
+}
+
+.swiperHeader{
+  text-align: center;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 18px;
+  padding: 0px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+.swiperP{
+  text-align: center;
+  font-family: Raleway;
+  margin: 0px;
+  padding: 0px;
+  color: #ececec;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+.mySwiper{
+  width: 95%;
+  margin: 50px;
+}
+
+.swiperSlide{
+  background-position: center;
+  background-size: cover;
+  max-width: 400px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+ border: 5px inset #a29f9f;
+  border-radius: 10px;
+  min-height: fit-content;
+  
+}
+
+
+
+.testibox{
+  position: relative;
+  width: 100%;
+  padding: 40px;
+  padding-top: 40px;
+  margin: auto;
+  width: fit-content;
+  font-family: Raleway; 
+}
+
+.testP{
+  padding-top: 25px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #4f4e4e;
+}
+
+.testfiers{
+  padding-top : 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-align: center;
+  color: #007ab7;
+  font-style: oblique;
+}
+
+
+.testibox .quoteimg{
+position: absolute;
+top: 20px;
+left: 330px;
+opacity: 0.2;
+
+}
+
+@media screen and (max-width: 450px) {
+  .swiperSlide{
+   
+    max-width: fit-content;
+   
+    
+  }
+
+  .mySwiper{
+    width: 89%;
+    margin: 50px;
+  }
+
+  .testibox .quoteimg{
+  
+display: none;
+    
+    }
+  
+}
+
+
+
+
+
+
+
+
+
 /* Certificate styling */
 
 .cert {
-  background-image: url(../public/testimonialbg.svg);
+  /* background-image: url(../public/bgg.svg); */
   width: 100%;
-  font-family: Montserrat;
+  font-family: Raleway;
   text-align: center;
   min-height: auto;
 
@@ -181,17 +376,17 @@
 }
 
 .certHeader {
-  font-size: 27px;
-  color: #fff;
-  margin: 12px;
-  padding-top: 30px;
-  letter-spacing: 1px;
+  text-align: center;
+  font-family: Raleway;
+  color: #242424;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .certimg {
   width: 55%;
   margin: auto;
-  background-color: #ffffff;
+  background-color: #29545e;
   padding-bottom: 12px;
 }
 
@@ -211,6 +406,7 @@
 .cmsection {
   max-width: 70%;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .cm {
@@ -238,8 +434,7 @@
   );
   display: flex;
   flex-direction: column;
-  font-family: Montserrat;
-
+  font-family: Raleway;
   justify-content: center;
   width: 100%;
   margin-left: 20px;
@@ -247,28 +442,42 @@
 }
 
 .cmHeader {
-  color: #292929;
-  text-shadow: 1px 0.5px #494949;
+  color: #44689a;
+  text-align: center;
+  /* text-shadow: 1px 0.5px  #010409; */
   letter-spacing: 1px;
   margin: 0px;
-  font-size: 23px;
-  font-weight: 500;
+  font-size: 263x;
+  font-weight: 600;
 }
 
-.cmText {
+.cmName{
+  color: #242424;
+  font-weight: 900;
+}
+
+
+.cmName,.cmText {
   color: #242424;
   /* text-shadow: 1px 0.5px #86868633; */
   font-size: 15px;
+  text-align: center;
   line-height: 1.5;
   /* margin-bottom: 1.25rem;     */
   font-weight: 300;
 }
 
+.cmName{
+  color: #242424;
+  font-weight: 400;
+}
+
 .cmAnchor {
+  text-align: center;
   color: #0961cc;
   text-decoration: underline;
   font-style: italic;
-  font-family: Montserrat;
+  font-family: Raleway;
   font-size: 14px;
   margin-top: 15px;
 }
@@ -356,7 +565,7 @@
     );
     display: flex;
     flex-direction: column;
-    font-family: Montserrat;
+    font-family: Raleway;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -414,7 +623,7 @@
 
 .teamSection {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 90px;
   margin-bottom: 70px;
 }
 
@@ -423,11 +632,12 @@
   margin: auto;
 }
 .teamHeader {
+  padding-bottom: 20px;
   text-align: center;
-  font-family: Montserrat;
-  color: #2d2d2d;
-  font-size: 30px;
-  font-weight: 500;
+  font-family: Raleway;
+  color: #242424;
+  font-size: 28px;
+  font-weight: 500
 }
 
 .allTeams {
@@ -469,14 +679,15 @@
 }
 
 .memberName {
-  color: #007ab7;
-  font-size: 22px;
-  font-family: Montserrat;
+  color: #44689a;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: Raleway;
 }
 
 .memberRole {
   color: #5f5c5c;
-  font-family: Montserrat;
+  font-family: Raleway;
   font-size: 16px;
   margin-top: -20px;
 }
@@ -537,67 +748,69 @@
 
 
 
-
-
-
-
-
 .abtContainer {
   width: 100%;
   background-color: #f7f8f8;
   padding-bottom: 40px;
+  width: fit-content;
+  margin-top: 8px;
 }
 
 .abtbanner {
-  background-color: #29545e;
-  padding: 24px;
+  background-image: url(../public/testimonialbg.svg);
+
+  padding: 34px;
   margin-bottom: 40px;
 }
 
 .abtbanner h1 {
-  font-family: Montserrat;
+  font-family: Raleway;
   font-size: 27px;
   text-align: center;
   color: #eeeeee;
+  font-weight: 600;
 }
 
 .speech {
-  width: 90%;
-  display: flex;
+width: 80%;
   margin: auto;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 6px rgba(148, 148, 148, 0.555);
-}
-
-/* .speechbox{
   display: flex;
- margin: 20px;
-
-
+ 
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(227, 227, 227, 0.465),
+    rgb(225, 222, 222)
+  );
+  box-shadow: 1px 1px 6px rgba(148, 148, 148, 0.555);
+  text-align: center;
 }
 
 
-.speechbox img{
-width: 530px;
-height: 770px;
 
-} */
+
+.speechbox Imae{
+margin: 0px;
+padding: 0px;
+
+}
 
 .spcontent {
   display: flex;
-
+width: fit-content;
   flex-direction: column;
-  font-family: Montserrat;
+  font-family: Raleway;
   margin: auto;
   padding: 36px;
-  justify-content: flex-start;
+ align-items: center;
 }
 
 .spcontent h4 {
-  font-size: 30px;
+  font-size: 29px;
   font-weight: 600;
-  color: #063d8f;
+  color: #44689a;
   margin-bottom: 8px;
+  padding-bottom: 40px;
 }
 
 .spcontent h2 {

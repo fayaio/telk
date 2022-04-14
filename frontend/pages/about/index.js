@@ -18,11 +18,12 @@ const About = () => {
         </div>
 
         <div className={styles.speech}>
-          {/* <div className={styles.speechbox}>
-            <Image src="/chairmanpic.svg" alt="" width={3030} height={6110} />
-            </div> */}
+         
             <div className={styles.spcontent}>
               <h4>Chairman's Speech</h4>
+ 
+            <Image className={styles.speechimg} src="/chairmanpic.svg" alt="" width={800} height={600} />
+      
               <h2>Samuel Jegede</h2>
               <h3 className={styles.hcm}>Chairman</h3>
 
@@ -35,17 +36,13 @@ const About = () => {
                 some landed properties in Ajah, Lagos State, Nigeria. Indeed, my
                 family was one of those to own land in the then developing area
                 of Lagos State in the early 1990s.
-                </div>
-
-                <div  className={styles.paras}>
+                
                  However, my interest in
                 Nigeria's property business nose-dived after my family lost the
                 land due to ownership conflicts. This ugly experience made me
                 sceptical about further involvement in the murky waters of
                 property business in Nigeria.
-                </div>
-
-                <div className={styles.paras}>
+               
                  Notwithstanding, in the year 2019,
                 I had a renewed realization that only the involvement of
                 visionary and virtuous entrepreneurs could sanitize the property
@@ -53,9 +50,7 @@ const About = () => {
                 of bjfpropertiesltd. My participation in the industry is to
                 deliver excellent and trust-based services that can be relied
                 upon by Nigerians in diasporas and foreign nationals. 
-                </div>
-
-                <div  className={styles.paras}>
+                
                 We currently have clients from Europe and other parts of the world.
                 Our dream is to keep growing the Client's base and carve a niche
                 for ourselves in the industry. With our team of dedicated and
