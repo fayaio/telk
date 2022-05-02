@@ -138,7 +138,7 @@
 /* Explore styling */
 
 .explore {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
   
 }
@@ -226,133 +226,6 @@
 
 
 
-.swiper{
-  position: relative;
-  width: 100%;
-  min-height: fit-content;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../public/testimonialbg.svg);
-  overflow: hidden;
-  align-items: center;
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
- padding-bottom: 40px;
- padding-top: 20px;
-  margin-top: 80px;
-  
-}
-
-.swiperHeader{
-  text-align: center;
-  font-family: Raleway;
-  color: #ffffff;
-  font-size: 35px;
-  font-weight: 600;
-  margin: 18px;
-  padding: 0px;
-  text-align: center;
-  font-size: 28px;
-  font-weight: 500;
-}
-.swiperP{
-  text-align: center;
-  font-family: Raleway;
-  margin: 0px;
-  padding: 0px;
-  color: #ececec;
-  font-size: 20px;
-  font-weight: 300;
-}
-
-
-
-.mySwiper{
-  width: 95%;
-  margin: 50px;
-}
-
-.swiperSlide{
-  background-position: center;
-  background-size: cover;
-  max-width: 400px;
-  background: #fff;
-  box-shadow: 0 15px 50px rgba(0,0,0,0.2);
- border: 5px inset #a29f9f;
-  border-radius: 10px;
-  min-height: fit-content;
-  
-}
-
-
-
-.testibox{
-  position: relative;
-  width: 100%;
-  padding: 40px;
-  padding-top: 40px;
-  margin: auto;
-  width: fit-content;
-  font-family: Raleway; 
-}
-
-.testP{
-  padding-top: 25px;
-  font-size: 12px;
-  text-align: center;
-  line-height: 16px;
-  letter-spacing: 0.4px;
-  color: #4f4e4e;
-}
-
-.testfiers{
-  padding-top : 16px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  font-size: 13px;
-  text-align: center;
-  color: #007ab7;
-  font-style: oblique;
-}
-
-
-.testibox .quoteimg{
-position: absolute;
-top: 20px;
-left: 330px;
-opacity: 0.2;
-
-}
-
-@media screen and (max-width: 450px) {
-  .swiperSlide{
-   
-    max-width: fit-content;
-   
-    
-  }
-
-  .mySwiper{
-    width: 89%;
-    margin: 50px;
-  }
-
-  .testibox .quoteimg{
-  
-display: none;
-    
-    }
-  
-}
-
-
-
-
-
 
 
 
@@ -360,9 +233,14 @@ display: none;
 /* Certificate styling */
 
 .cert {
-  /* background-image: url(../public/bgg.svg); */
+  background-image: linear-gradient(
+    to right,
+    rgba(185, 210, 210, 0.513),
+    rgba(41, 84, 94, 0.675),
+    rgb(41, 84, 94)
+  );
+  background-image: url(../public/testimonialbg.svg);
   width: 100%;
-  font-family: Raleway;
   text-align: center;
   min-height: auto;
 
@@ -378,16 +256,18 @@ display: none;
 .certHeader {
   text-align: center;
   font-family: Raleway;
-  color: #242424;
+  color: #ffffff;
   font-size: 28px;
   font-weight: 500;
+ padding-top: 38px;
 }
 
 .certimg {
   width: 55%;
   margin: auto;
-  background-color: #29545e;
+  background-color: #ffffff;
   padding-bottom: 12px;
+  box-shadow: 3px 3px 10px rgb(139, 139, 139);
 }
 
 .certimg img {
@@ -403,7 +283,567 @@ display: none;
   }
 }
 
-.cmsection {
+
+
+/* Team Section Styling */
+.teamSection{
+  width: 100%;
+  background-color: #F5F7FA; 
+height: fit-content;
+  margin-top: -50px
+
+}
+
+.teamHeader{
+  text-align: center;
+  font-family: Raleway;
+  color: #242424;
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+.cmProfile{
+  background: #fff;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  width: 60%;
+  margin: 4% auto;
+  display: flex;
+  height: fit-content;
+}
+
+.cm{
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+ .cmImg img{
+  height: auto;
+  width: 260px;
+  vertical-align: middle;
+
+ }
+
+
+.cminfo{
+  width: 70%;
+  text-align: center;
+  margin: 0px 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+ 
+}
+
+.cminfoHeader{
+  font-family: Railway;
+  font-size: 23px;
+  margin-top: 30px;
+  font-weight: 500;
+  color: #00325a;
+}
+
+.cmName{
+font-size: 18px;
+margin-top: -20px;
+font-weight: 200;
+}
+
+.cmSpeech{
+  margin-top: -10px;
+  line-height: 27px;
+}
+
+@media screen and (max-width:1016px){
+  .cmProfile{
+    width: 70%;
+   
+  }
+
+
+}
+@media screen and (max-width:812px){
+  .cmProfile{
+    width: 90%;
+   
+  }
+
+
+}
+
+@media screen and (max-width:636px){
+  .cmImg img{
+    height: auto;
+    width: 200px;
+    vertical-align: middle;
+  
+   }
+   .cminfo{
+    width: 90%;
+    text-align: center;
+    margin: auto 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+   
+  }
+  
+  .cminfoHeader{
+    font-family: Railway;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: #00325a;
+  }
+  
+  .cmName{
+  font-size: 16px;
+  margin-top: -20px;
+  font-weight: 200;
+  }
+  
+  .cmSpeech{
+    margin-top: -10px;
+    line-height: 25px;
+  }
+
+}
+
+
+@media screen and (max-width:620px){
+  .cm{
+    flex-direction: column;
+    
+  }
+  .cmProfile{
+    width: 60%;
+    height: fit-content;
+  }
+  .cmImg{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    
+  }
+  .cmImg img{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+   }
+
+   .cminfo{
+    width: 90%;
+    text-align: center;
+    padding: 12px;
+  
+    align-items: center;
+    justify-content: center;
+   
+    margin-bottom: 14px;
+  }
+  
+}
+
+@media screen and (max-width:500px){
+  .cmProfile{
+    width: 70%;
+    height: fit-content;
+  }
+
+
+}
+
+
+.teamContainer{
+  background-color: #F5F7FA;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  padding-left: calc(5% - 16px);
+  padding-right: calc(5% - 16px);
+}
+
+.profile{
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  border-radius: 3px;
+ margin: 16px 16px;
+  max-width: 300px;
+  text-align: center;
+  transition: 300ms;
+  flex-grow: 1;
+}
+
+.profile:hover {
+  box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
+}
+
+.ourTeam{
+padding: 10px 0 20px;
+background: #f9f9f9;
+text-align: center;
+overflow: hidden;
+position: relative;
+border-top: 5px solid #00325a;
+}
+
+.ourTeam .teamPics{
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 50px;
+  z-index: 2;
+  position: relative;
+
+}
+
+.ourTeam .teamPics:before{
+  content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #00325a;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+    z-index: -1;
+    
+}
+
+.ourTeam .teamPics:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  transition: all 0.3s linear 0s;
+
+}
+
+.frame{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    height: 130px;
+    width: 130px;
+    padding: 5px;
+
+    border-radius: 190px;
+    box-shadow: 3px 3px 10px #c3c4ca51;
+}
+
+
+
+.ourTeam .teamPics Image{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+  position: relative;
+  
+}
+
+.ourTeam:hover .teamPics Image{
+  box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+
+
+.teamNames{
+  color: #007ab7;
+    font-size: 19px;
+    font-family: Raleway;
+    margin-top: 4px;
+}
+
+.teamroles{
+
+  transition: 500ms;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #98A0A6;
+  color: #5f5c5c;
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+.profileBtn{
+  width: 300px;
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #98A0A6;
+  font-weight: 300;
+  padding: 12px;
+  border-radius: 2px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.profileBtn:hover {
+  background-color: #507BFC;
+  color: white;
+  box-shadow: 0 10px 20px 0 rgba(80,123,252,0.50);
+}
+
+/* Testimonial Section Styling */
+
+.swiper{
+  position: relative;
+  width: 80%;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  align-items: center;
+  background-image: url(../public/testimonialbg.svg);
+ object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ padding-bottom: 40px;
+ padding-top: 20px;
+  margin-top: 80px;
+  margin: 70px auto;
+  border-radius: 6px;
+  
+}
+
+.swiperHeader{
+  text-align: center;
+  font-family: Raleway;
+  color: rgb(222, 218, 218);
+  font-weight: 600;
+  margin: 18px;
+  padding: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.swiperP{
+  text-align: center;
+  font-family: Raleway;
+margin-top: -15px;
+  padding: 0px;
+color: #fff;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+
+
+.mySwiper{
+  width: 90%;
+  margin: 32px;
+}
+
+.swiperSlide{
+  background-position: center;
+  background-size: cover;
+  max-width: 470px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+ 
+  border-radius: 13px;
+  min-height: fit-content;
+
+}
+
+
+.testiprofile{
+  display:flex;
+flex-direction: column;
+
+}
+
+.testiprofile img{
+  border-radius: 100%;
+  width:75px;
+  height:75px;
+  object-fit:cover;
+  margin: auto;
+ 
+}
+
+.testiprofile .information{
+  padding-left: 15px;
+  margin-bottom:15px;
+  text-align: center;
+}
+
+ .testfiers{
+ 
+  margin: 0px auto 5px;
+  color: #00325a;
+  line-height: 1;
+
+  font-family: Raleway;
+
+    padding-top : 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 17px;
+    
+    color: #007ab7;
+    text-align: center;
+  
+}
+.testiprofile .information span{
+  color: #007ab7;
+  font-weight: bold;
+  margin-top: -4px;
+  line-height: 1.6em;
+  font-size: 15px;
+  font-family: Raleway;
+}
+
+.iconquote {
+  padding-top: 1px;
+ color: #007ab7;
+margin-left: 50%;
+margin-right: 50%;
+
+}
+
+
+
+
+.testibox{
+  position: relative;
+  width: 100%;
+  padding: 40px;
+  padding-top: 40px;
+  margin: auto;
+  width: fit-content;
+  font-family: Raleway; 
+}
+
+.testP{
+  padding-top: 0px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+  color: #4f4e4e;
+ 
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 450px) {
+  .swiperSlide{
+   
+    width: fit-content;
+   
+    
+  }
+
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cmsection {
   max-width: 70%;
   margin: 0 auto;
   padding-top: 40px;
@@ -439,12 +879,12 @@ display: none;
   width: 100%;
   margin-left: 20px;
   padding: 15px;
-}
+} */
 
-.cmHeader {
+/* .cmHeader {
   color: #44689a;
   text-align: center;
-  /* text-shadow: 1px 0.5px  #010409; */
+  text-shadow: 1px 0.5px  #010409;
   letter-spacing: 1px;
   margin: 0px;
   font-size: 263x;
@@ -459,11 +899,11 @@ display: none;
 
 .cmName,.cmText {
   color: #242424;
-  /* text-shadow: 1px 0.5px #86868633; */
+  text-shadow: 1px 0.5px #86868633;
   font-size: 15px;
   text-align: center;
   line-height: 1.5;
-  /* margin-bottom: 1.25rem;     */
+  margin-bottom: 1.25rem;    
   font-weight: 300;
 }
 
@@ -617,10 +1057,10 @@ display: none;
     border-bottom-right-radius: 12px;
     height: fit-content;
   }
-}
+} */
 
 /* Team styling */
-
+/* 
 .teamSection {
   width: 100%;
   margin-top: 90px;
@@ -836,4 +1276,4 @@ width: fit-content;
 .spcontent h5 {
   font-size: 19px;
   color: #0058db;
-}
+} */
