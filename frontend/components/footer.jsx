@@ -1,20 +1,18 @@
 // import Link from "next/link";
 // import Image from "next/image";
 // import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,
   faInstagram,
   faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <img src="/bjflogo.svg" alt="" width={180} height={140} />
-
-        
+        <img src="/bjflog.svg" alt="" width={180} height={140} />
       </div>
 
       <ul className="footer-right">
@@ -33,20 +31,19 @@ const Footer = () => {
           </ul>
         </li>
 
-        
-
         <li>
           <h2>ADDRESS</h2>
           <ul className="box">
             <li>
-              {" "}
-              <a href="#">2nd floor, 67 Obafemi Awolowo Way,  Ikeja Lagos, Nigeria</a>
+              {' '}
+              <a href="#">
+                2nd floor, 67 Obafemi Awolowo Way, Ikeja Lagos, Nigeria
+              </a>
             </li>
-            
           </ul>
-          </li>
+        </li>
 
-          <li className="socials">
+        <li className="socials">
           <h2>SOCIALS</h2>
           <a href="#">
             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
@@ -58,14 +55,10 @@ const Footer = () => {
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
           </a>
         </li>
-        
-
-       
       </ul>
 
-
       <div className="footerbottom">
-      <div className="line"></div>
+        <div className="line"></div>
         <p> All Right reserved by &copy;bjfproperty 2022</p>
       </div>
     </footer>

@@ -1,17 +1,17 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { Swiper, SwiperSlide } from "swiper/react";
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
-import React from "react";
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper';
+import React from 'react';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQuoteRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 export default function Home() {
   return (
     <>
@@ -96,7 +96,7 @@ export default function Home() {
 
         <div className={styles.teamSection}>
           <h3 className={styles.teamHeader}>Meet The Team</h3>
-          <hr style={{ borderColor: "#00325a", width: "10%" }}></hr>
+          <hr style={{ borderColor: '#00325a', width: '10%' }}></hr>
 
           <div className={styles.cmProfile}>
             <div className={styles.cm}>
@@ -130,7 +130,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <h5 className={styles.teamNames}>Mr Rufus Idowu</h5>
+                <h5 className={styles.teamNames}>Mr Rufus Idoun</h5>
                 <h6 className={styles.teamroles}>General Manager</h6>
 
                 <div className={styles.btnContainer}>
@@ -190,12 +190,12 @@ export default function Home() {
 
           <Swiper
             className={styles.mySwiper}
-            effect={"coverflow"}
+            effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
             navigation={true}
             loop={true}
-            slidesPerView={"auto"}
+            slidesPerView={'auto'}
             coverflowEffect={{
               rotate: 0,
               stretch: 80,
