@@ -6,8 +6,9 @@
 
 /* Banner styling */
 .bannerContainer {
-  background-image: url(../public/bannerimg.svg);
-  min-height: 80vh;
+  background-image: url(../public/bb.svg);
+  padding-top: 130px;
+  padding-bottom: 130px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -17,12 +18,13 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 7px;
+  margin-top: 4px;
+  margin-bottom: 50px;
 }
 
 .bannercontent {
-  text-shadow: 5px 5px 10px rgb(65, 64, 64);
-  font-family: Roboto;
+  /* text-shadow: 5px 5px 10px rgb(65, 64, 64); */
+  font-family: Raleway;
   text-align: center;
   margin: auto;
   width: 90%;
@@ -35,67 +37,117 @@
 }
 
 .bannerp {
-  text-shadow: 5px 5px 10px rgb(12, 11, 11);
+  /* text-shadow: 5px 5px 10px rgb(12, 11, 11); */
   color: white;
   font-weight: 200;
   font-size: 30px;
   color: rgb(240, 240, 240);
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 1047px) {
   .bannerText {
-    font-size: 56px;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  .bannerText {
-    font-size: 54px;
-  }
-}
-
-@media screen and (max-width: 509px) and (min-width: 300px) {
-  .bannerText {
-    font-size: 48px;
+    font-size: 60px;
   }
   .bannerp {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  
+}
+@media screen and (max-width: 897px) {
+  .bannerText {
+    font-size: 50px;
+  }
+
+  
+}
+
+@media screen and (max-width: 748px) {
+  .bannerText {
+    font-size: 40px;
+  }
+  .bannerp {
+    font-size: 21px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 599px) {
+  .bannerText {
+    font-size: 35px;
+  }
+
+  .bannercontent {
+   
+    width: 95%;
+  }
+
+  .bannerp {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .bannerText {
+    font-size: 28px;
+  }
+
+ 
+}
+
+
+
+
+@media screen and (max-width: 401px) and (min-width: 300px) {
+  .bannerText {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .bannerp {
+    font-size: 18px;
+  }
+  .bannercontent {
+   
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 299px) {
   .bannerText {
-    font-size: 40px;
+    font-size: 35px;
   }
   .bannerp {
     font-size: 17px;
   }
 }
 
-@media screen and (max-width: 260px) {
+@media screen and (max-width: 280px) {
   .bannerText {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
 @media screen and (max-width: 170px) {
   .bannerText {
-    font-size: 13px;
+    font-size: 23px;
   }
 }
 
 /* Explore styling */
 
 .explore {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
+  
 }
 
 .exploreheader {
   text-align: center;
-  font-family: Montserrat;
-  color: #2d2d2d;
-  font-size: 30px;
+  font-family: Raleway;
+  color: #242424;
+  font-size: 28px;
   font-weight: 500;
 }
 
@@ -125,6 +177,16 @@
     margin: 25px;
     grid-template-columns: repeat(1, 1fr);
   }
+  
+  
+}
+
+@media screen and (max-width: 500px) {
+  .exploreheader {
+    font-size: 24px;
+   
+  }
+
 }
 
 .cards_item {
@@ -143,7 +205,7 @@
 
 .card_content {
   padding: 1rem;
-  font-family: Montserrat;
+  font-family: Raleway;
 }
 
 .card_title {
@@ -162,12 +224,23 @@
   font-weight: 400;
 }
 
+
+
+
+
+
+
 /* Certificate styling */
 
 .cert {
+  background-image: linear-gradient(
+    to right,
+    rgba(185, 210, 210, 0.513),
+    rgba(41, 84, 94, 0.675),
+    rgb(41, 84, 94)
+  );
   background-image: url(../public/testimonialbg.svg);
   width: 100%;
-  font-family: Montserrat;
   text-align: center;
   min-height: auto;
 
@@ -181,11 +254,12 @@
 }
 
 .certHeader {
-  font-size: 27px;
-  color: #fff;
-  margin: 12px;
-  padding-top: 30px;
-  letter-spacing: 1px;
+  text-align: center;
+  font-family: Raleway;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+ padding-top: 38px;
 }
 
 .certimg {
@@ -193,6 +267,7 @@
   margin: auto;
   background-color: #ffffff;
   padding-bottom: 12px;
+  box-shadow: 3px 3px 10px rgb(139, 139, 139);
 }
 
 .certimg img {
@@ -208,9 +283,487 @@
   }
 }
 
-.cmsection {
+
+
+/* Team Section Styling */
+.teamSection{
+  width: 100%;
+  background-color: #F5F7FA; 
+height: fit-content;
+  margin-top: -50px
+
+}
+
+.teamHeader{
+  text-align: center;
+  font-family: Raleway;
+  color: #242424;
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+
+.cmProfile{
+  background: #fff;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  width: 60%;
+  margin: 4% auto;
+  display: flex;
+  height: fit-content;
+}
+
+.cm{
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+ .cmImg img{
+  height: auto;
+  width: 260px;
+  vertical-align: middle;
+
+ }
+
+
+.cminfo{
+  width: 70%;
+  text-align: center;
+  margin: 0px 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+ 
+}
+
+.cminfoHeader{
+  font-family: Railway;
+  font-size: 23px;
+  margin-top: 30px;
+  font-weight: 500;
+  color: #00325a;
+}
+
+.cmName{
+font-size: 18px;
+margin-top: -20px;
+font-weight: 200;
+}
+
+.cmSpeech{
+  margin-top: -10px;
+  line-height: 27px;
+}
+
+@media screen and (max-width:1016px){
+  .cmProfile{
+    width: 70%;
+   
+  }
+
+
+}
+@media screen and (max-width:812px){
+  .cmProfile{
+    width: 90%;
+   
+  }
+
+
+}
+
+@media screen and (max-width:636px){
+  .cmImg img{
+    height: auto;
+    width: 200px;
+    vertical-align: middle;
+  
+   }
+   .cminfo{
+    width: 90%;
+    text-align: center;
+    margin: auto 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+   
+  }
+  
+  .cminfoHeader{
+    font-family: Railway;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: #00325a;
+  }
+  
+  .cmName{
+  font-size: 16px;
+  margin-top: -20px;
+  font-weight: 200;
+  }
+  
+  .cmSpeech{
+    margin-top: -10px;
+    line-height: 25px;
+  }
+
+}
+
+
+@media screen and (max-width:620px){
+  .cm{
+    flex-direction: column;
+    
+  }
+  .cmProfile{
+    width: 60%;
+    height: fit-content;
+  }
+  .cmImg{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    
+  }
+  .cmImg img{
+    width: 100%;
+    height: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+   }
+
+   .cminfo{
+    width: 90%;
+    text-align: center;
+    padding: 12px;
+  
+    align-items: center;
+    justify-content: center;
+   
+    margin-bottom: 14px;
+  }
+  
+}
+
+@media screen and (max-width:500px){
+  .cmProfile{
+    width: 70%;
+    height: fit-content;
+  }
+
+
+}
+
+
+.teamContainer{
+  background-color: #F5F7FA;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  padding-left: calc(5% - 16px);
+  padding-right: calc(5% - 16px);
+}
+
+.profile{
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  border-radius: 3px;
+ margin: 16px 16px;
+  max-width: 300px;
+  text-align: center;
+  transition: 300ms;
+  flex-grow: 1;
+}
+
+.profile:hover {
+  box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
+}
+
+.ourTeam{
+padding: 10px 0 20px;
+background: #f9f9f9;
+text-align: center;
+overflow: hidden;
+position: relative;
+border-top: 5px solid #00325a;
+}
+
+.ourTeam .teamPics{
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 50px;
+  z-index: 2;
+  position: relative;
+
+}
+
+.ourTeam .teamPics:before{
+  content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #00325a;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+    z-index: -1;
+    
+}
+
+.ourTeam .teamPics:after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  transition: all 0.3s linear 0s;
+
+}
+
+.frame{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    height: 130px;
+    width: 130px;
+    padding: 5px;
+
+    border-radius: 190px;
+    box-shadow: 3px 3px 10px #c3c4ca51;
+}
+
+
+
+.ourTeam .teamPics Image{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+  position: relative;
+  
+}
+
+.ourTeam:hover .teamPics Image{
+  box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+
+
+.teamNames{
+  color: #007ab7;
+    font-size: 19px;
+    font-family: Raleway;
+    margin-top: 4px;
+}
+
+.teamroles{
+
+  transition: 500ms;
+  font-weight: 300;
+  margin-bottom: 30px;
+  color: #98A0A6;
+  color: #5f5c5c;
+  font-family: Montserrat;
+  font-size: 16px;
+  margin-top: -20px;
+}
+
+.profileBtn{
+  width: 300px;
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #98A0A6;
+  font-weight: 300;
+  padding: 12px;
+  border-radius: 2px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.profileBtn:hover {
+  background-color: #507BFC;
+  color: white;
+  box-shadow: 0 10px 20px 0 rgba(80,123,252,0.50);
+}
+
+/* Testimonial Section Styling */
+
+.swiper{
+  position: relative;
+  width: 80%;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  align-items: center;
+  background-image: url(../public/testimonialbg.svg);
+ object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ padding-bottom: 40px;
+ padding-top: 20px;
+  margin-top: 80px;
+  margin: 70px auto;
+  border-radius: 6px;
+  
+}
+
+.swiperHeader{
+  text-align: center;
+  font-family: Raleway;
+  color: rgb(222, 218, 218);
+  font-weight: 600;
+  margin: 18px;
+  padding: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.swiperP{
+  text-align: center;
+  font-family: Raleway;
+margin-top: -15px;
+  padding: 0px;
+color: #fff;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+
+
+.mySwiper{
+  width: 90%;
+  margin: 32px;
+}
+
+.swiperSlide{
+  background-position: center;
+  background-size: cover;
+  max-width: 470px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+ 
+  border-radius: 13px;
+  min-height: fit-content;
+
+}
+
+
+.testiprofile{
+  display:flex;
+flex-direction: column;
+
+}
+
+.testiprofile img{
+  border-radius: 100%;
+  width:75px;
+  height:75px;
+  object-fit:cover;
+  margin: auto;
+ 
+}
+
+.testiprofile .information{
+  padding-left: 15px;
+  margin-bottom:15px;
+  text-align: center;
+}
+
+ .testfiers{
+ 
+  margin: 0px auto 5px;
+  color: #00325a;
+  line-height: 1;
+
+  font-family: Raleway;
+
+    padding-top : 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 17px;
+    
+    color: #007ab7;
+    text-align: center;
+  
+}
+.testiprofile .information span{
+  color: #007ab7;
+  font-weight: bold;
+  margin-top: -4px;
+  line-height: 1.6em;
+  font-size: 15px;
+  font-family: Raleway;
+}
+
+.iconquote {
+  padding-top: 1px;
+ color: #007ab7;
+margin-left: 50%;
+margin-right: 50%;
+
+}
+
+
+
+
+.testibox{
+  position: relative;
+  width: 100%;
+  padding: 40px;
+  padding-top: 40px;
+  margin: auto;
+  width: fit-content;
+  font-family: Raleway; 
+}
+
+.testP{
+  padding-top: 0px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 19px;
+  letter-spacing: 0.4px;
+  color: #4f4e4e;
+ 
+}
+
+
+@media screen and (max-width: 450px) {
+  .swiperSlide{
+    width: fit-content;
+  }
+}
+
+/* .cmsection {
   max-width: 70%;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .cm {
@@ -238,44 +791,56 @@
   );
   display: flex;
   flex-direction: column;
-  font-family: Montserrat;
-
+  font-family: Raleway;
   justify-content: center;
   width: 100%;
   margin-left: 20px;
   padding: 15px;
-}
+} */
 
-.cmHeader {
-  color: #292929;
-  text-shadow: 1px 0.5px #494949;
+/* .cmHeader {
+  color: #44689a;
+  text-align: center;
+  text-shadow: 1px 0.5px  #010409;
   letter-spacing: 1px;
   margin: 0px;
-  font-size: 23px;
-  font-weight: 500;
+  font-size: 263x;
+  font-weight: 600;
 }
 
-.cmText {
+.cmName{
   color: #242424;
-  /* text-shadow: 1px 0.5px #86868633; */
+  font-weight: 900;
+}
+
+
+.cmName,.cmText {
+  color: #242424;
+  text-shadow: 1px 0.5px #86868633;
   font-size: 15px;
+  text-align: center;
   line-height: 1.5;
-  /* margin-bottom: 1.25rem;     */
+  margin-bottom: 1.25rem;    
   font-weight: 300;
 }
 
+.cmName{
+  color: #242424;
+  font-weight: 400;
+}
+
 .cmAnchor {
+  text-align: center;
   color: #0961cc;
   text-decoration: underline;
   font-style: italic;
-  font-family: Montserrat;
+  font-family: Raleway;
   font-size: 14px;
   margin-top: 15px;
 }
 
 .cmAnchor:hover {
   background: transparent;
-
   cursor: pointer;
 }
 
@@ -284,21 +849,22 @@
     padding: 15px;
     height: 330px;
   }
-
   .cmimage img {
     height: 330px;
     width: 240px;
   }
   .cmContent {
     padding: 10px;
-
     height: 300px;
+
+@media screen and (max-width: 509px) and (min-width: 300px) {
+  .bannerText {
+    font-size: 48px;
   }
 
   .cmHeader {
     font-size: 20px;
   }
-
   .cmText {
     color: #242424;
     font-size: 13px;
@@ -333,6 +899,7 @@
     background-color: white;
   }
 
+
   .cmimage {
     height: auto;
     max-width: 100%;
@@ -356,7 +923,7 @@
     );
     display: flex;
     flex-direction: column;
-    font-family: Montserrat;
+    font-family: Raleway;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -400,7 +967,6 @@
 @media screen and (max-width: 300px) {
   .cmContent {
     width: 100%;
-
     margin: auto;
     margin-top: -5px;
     padding: 0px;
@@ -410,11 +976,12 @@
   }
 }
 
-/* Team styling */
 
+/* Team styling */
+/* 
 .teamSection {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 90px;
   margin-bottom: 70px;
 }
 
@@ -423,11 +990,12 @@
   margin: auto;
 }
 .teamHeader {
+  padding-bottom: 20px;
   text-align: center;
-  font-family: Montserrat;
-  color: #2d2d2d;
-  font-size: 30px;
-  font-weight: 500;
+  font-family: Raleway;
+  color: #242424;
+  font-size: 28px;
+  font-weight: 500
 }
 
 .allTeams {
@@ -469,14 +1037,15 @@
 }
 
 .memberName {
-  color: #007ab7;
-  font-size: 22px;
-  font-family: Montserrat;
+  color: #44689a;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: Raleway;
 }
 
 .memberRole {
   color: #5f5c5c;
-  font-family: Montserrat;
+  font-family: Raleway;
   font-size: 16px;
   margin-top: -20px;
 }
@@ -538,66 +1107,69 @@
 
 
 
-
-
-
-
 .abtContainer {
   width: 100%;
   background-color: #f7f8f8;
   padding-bottom: 40px;
+  width: fit-content;
+  margin-top: 8px;
 }
 
 .abtbanner {
-  background-color: #29545e;
-  padding: 24px;
+  background-image: url(../public/testimonialbg.svg);
+
+  padding: 34px;
   margin-bottom: 40px;
 }
 
 .abtbanner h1 {
-  font-family: Montserrat;
+  font-family: Raleway;
   font-size: 27px;
   text-align: center;
   color: #eeeeee;
+  font-weight: 600;
 }
 
 .speech {
-  width: 90%;
-  display: flex;
+width: 80%;
   margin: auto;
-  background-color: #ffffff;
-  box-shadow: 1px 1px 6px rgba(148, 148, 148, 0.555);
-}
-
-/* .speechbox{
   display: flex;
- margin: 20px;
-
-
+ 
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(227, 227, 227, 0.465),
+    rgb(225, 222, 222)
+  );
+  box-shadow: 1px 1px 6px rgba(148, 148, 148, 0.555);
+  text-align: center;
 }
 
 
-.speechbox img{
-width: 530px;
-height: 770px;
 
-} */
+
+.speechbox Imae{
+margin: 0px;
+padding: 0px;
+
+}
 
 .spcontent {
   display: flex;
-
+width: fit-content;
   flex-direction: column;
-  font-family: Montserrat;
+  font-family: Raleway;
   margin: auto;
   padding: 36px;
-  justify-content: flex-start;
+ align-items: center;
 }
 
 .spcontent h4 {
-  font-size: 30px;
+  font-size: 29px;
   font-weight: 600;
-  color: #063d8f;
+  color: #44689a;
   margin-bottom: 8px;
+  padding-bottom: 40px;
 }
 
 .spcontent h2 {
@@ -623,4 +1195,4 @@ height: 770px;
 .spcontent h5 {
   font-size: 19px;
   color: #0058db;
-}
+} */
