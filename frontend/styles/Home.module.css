@@ -754,94 +754,11 @@ margin-right: 50%;
 }
 
 
-
-
-
-
-
 @media screen and (max-width: 450px) {
   .swiperSlide{
-   
     width: fit-content;
-   
-    
   }
-
-  
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* .cmsection {
   max-width: 70%;
@@ -924,7 +841,6 @@ margin-right: 50%;
 
 .cmAnchor:hover {
   background: transparent;
-
   cursor: pointer;
 }
 
@@ -933,21 +849,22 @@ margin-right: 50%;
     padding: 15px;
     height: 330px;
   }
-
   .cmimage img {
     height: 330px;
     width: 240px;
   }
   .cmContent {
     padding: 10px;
-
     height: 300px;
+
+@media screen and (max-width: 509px) and (min-width: 300px) {
+  .bannerText {
+    font-size: 48px;
   }
 
   .cmHeader {
     font-size: 20px;
   }
-
   .cmText {
     color: #242424;
     font-size: 13px;
@@ -981,6 +898,7 @@ margin-right: 50%;
     margin: 0px;
     background-color: white;
   }
+
 
   .cmimage {
     height: auto;
@@ -1049,7 +967,6 @@ margin-right: 50%;
 @media screen and (max-width: 300px) {
   .cmContent {
     width: 100%;
-
     margin: auto;
     margin-top: -5px;
     padding: 0px;
@@ -1057,7 +974,8 @@ margin-right: 50%;
     border-bottom-right-radius: 12px;
     height: fit-content;
   }
-} */
+}
+
 
 /* Team styling */
 /* 
@@ -1185,6 +1103,7 @@ margin-right: 50%;
     margin: 0px;
   }
 }
+
 
 
 
