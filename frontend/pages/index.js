@@ -37,47 +37,140 @@ export default function Home() {
           <h3 className={styles.exploreheader}>
             Explore Properties In Nigeria
           </h3>
+
           <ul className={styles.cards}>
-            <li className={styles.cards_item}>
-              <div className={styles.card}>
-                <div className={styles.card_image}>
-                  <img src="./exploreimg1.svg" />
-                </div>
-                <div className={styles.card_content}>
-                  <h2 className={styles.card_title}>WHAT WE DO</h2>
-                  <p className={styles.card_text}>
-                    BJF Properties and Development Company Ltd. deals with
-                    Property Development, Property Management, Buying and
-                    Selling of property, Property Consultancy and much more.
-                  </p>
+            <li>
+              <div href="" className={styles.card}>
+                <img src="./pbm.svg" alt="" className={styles.card__image} />
+                <div className={styles.card__overlay}>
+                  <div className={styles.card__header}>
+                    <svg
+                      className={styles.card__arc}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path />
+                    </svg>
+                    <img
+                      src="/bjflog.svg"
+                      alt=""
+                      className={styles.card__thumb}
+                    />
+
+                    <div className={styles.card__headertext}>
+                      <h3 className={styles.card__title}>
+                        Plastic Blowing Machine Space
+                      </h3>
+                      <span className={styles.card__status}> Factory</span>
+                    </div>
+                  </div>
+
+                  <a className={styles.moredetails} href="/properties">
+                    {' '}
+                    More Details
+                  </a>
                 </div>
               </div>
             </li>
-            <li className={styles.cards_item}>
-              <div className={styles.card}>
-                <div className={styles.card_image}>
-                  <img src="./exploreimg2.svg" />
-                </div>
-                <div className={styles.card_content}>
-                  <h2 className={styles.card_title}>OUR VISION</h2>
-                  <p className={styles.card_text}>
-                    To be the Topmost property solution provider globally.
-                  </p>
+
+            <li>
+              <div href="" className={styles.card}>
+                <img src="./cofo.svg" alt="" className={styles.card__image} />
+                <div className={styles.card__overlay}>
+                  <div className={styles.card__header}>
+                    <svg
+                      className={styles.card__arc}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path />
+                    </svg>
+                    <img
+                      src="/bjflog.svg"
+                      alt=""
+                      className={styles.card__thumb}
+                    />
+
+                    <div className={styles.card__headertext}>
+                      <h3 className={styles.card__title}>C Of O Factory</h3>
+                      <span className={styles.card__status}> Factory</span>
+                    </div>
+                  </div>
+
+                  <a className={styles.moredetails} href="/properties">
+                    {' '}
+                    More Details
+                  </a>
                 </div>
               </div>
             </li>
-            <li className={styles.cards_item}>
-              <div className={styles.card}>
-                <div className={styles.card_image}>
-                  <img src="./exploreimg3.svg" />
+
+            <li>
+              <div href="" className={styles.card}>
+                <img
+                  src="./cofoEstate.svg"
+                  alt=""
+                  className={styles.card__image}
+                />
+                <div className={styles.card__overlay}>
+                  <div className={styles.card__header}>
+                    <svg
+                      className={styles.card__arc}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path />
+                    </svg>
+                    <img
+                      src="/bjflog.svg"
+                      alt=""
+                      className={styles.card__thumb}
+                    />
+
+                    <div className={styles.card__headertext}>
+                      <h3 className={styles.card__title}>C Of O Mini Estate</h3>
+                      <span className={styles.card__status}> Estate</span>
+                    </div>
+                  </div>
+
+                  <a className={styles.moredetails} href="/properties">
+                    {' '}
+                    More Details
+                  </a>
                 </div>
-                <div className={styles.card_content}>
-                  <h2 className={styles.card_title}>OUR MISSION</h2>
-                  <p className={styles.card_text}>
-                    Our Mission is to provide both clients Locally and in
-                    Diaspora with the property of their dreams without having to
-                    go through family and friends' Trust issues.
-                  </p>
+              </div>
+            </li>
+
+            <li>
+              <div href="" className={styles.card}>
+                <img
+                  src="./waterproduction.svg"
+                  alt=""
+                  className={styles.card__image}
+                />
+                <div className={styles.card__overlay}>
+                  <div className={styles.card__header}>
+                    <svg
+                      className={styles.card__arc}
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path />
+                    </svg>
+                    <img
+                      src="/bjflog.svg"
+                      alt=""
+                      className={styles.card__thumb}
+                    />
+
+                    <div className={styles.card__headertext}>
+                      <h3 className={styles.card__title}>
+                        Water Production Hall
+                      </h3>
+                      <span className={styles.card__status}> Factory</span>
+                    </div>
+                  </div>
+
+                  <a className={styles.moredetails} href="/properties">
+                    {' '}
+                    More Details
+                  </a>
                 </div>
               </div>
             </li>
@@ -180,6 +273,58 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* 
+        <div className={styles.explore}>
+          <h3 className={styles.exploreheader}>
+            Explore Properties In Nigeria
+          </h3>
+          <ul className={styles.cards}>
+            <li className={styles.cards_item}>
+              <div className={styles.card}>
+                <div className={styles.card_image}>
+                  <img src="./exploreimg1.svg" />
+                </div>
+                <div className={styles.card_content}>
+                  <h2 className={styles.card_title}>WHAT WE DO</h2>
+                  <p className={styles.card_text}>
+                    BJF Properties and Development Company Ltd. deals with
+                    Property Development, Property Management, Buying and
+                    Selling of property, Property Consultancy and much more.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={styles.cards_item}>
+              <div className={styles.card}>
+                <div className={styles.card_image}>
+                  <img src="./exploreimg2.svg" />
+                </div>
+                <div className={styles.card_content}>
+                  <h2 className={styles.card_title}>OUR VISION</h2>
+                  <p className={styles.card_text}>
+                    To be the Topmost property solution provider globally.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={styles.cards_item}>
+              <div className={styles.card}>
+                <div className={styles.card_image}>
+                  <img src="./exploreimg3.svg" />
+                </div>
+                <div className={styles.card_content}>
+                  <h2 className={styles.card_title}>OUR MISSION</h2>
+                  <p className={styles.card_text}>
+                    Our Mission is to provide both clients Locally and in
+                    Diaspora with the property of their dreams without having to
+                    go through family and friends' Trust issues.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div> */}
 
         {/*       
       Testimonials Section */}
