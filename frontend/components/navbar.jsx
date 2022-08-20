@@ -35,7 +35,7 @@ const Nav = () => {
 
             <div className="navlink">
               <Link onClick={closeMobileMenu} href="/">
-                <a>Gallery</a>
+                <a>Properties</a>
               </Link>
             </div>
           </div>

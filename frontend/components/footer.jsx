@@ -45,15 +45,15 @@ const Footer = () => {
 
         <li className="socials">
           <h2>SOCIALS</h2>
-          <a href="#">
+          <a href="https://www.facebook.com/Bjf-Properties-and-Development-Company-Limited-104684919018924/">
             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
           </a>
-          <a href="#">
+          <a href="https://instagram.com/bjf_properties?igshid=YmMyMTA2M2Y=">
             <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
           </a>
-          <a href="#">
+          {/* <a href="#">
             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-          </a>
+          </a> */}
         </li>
       </ul>
 
