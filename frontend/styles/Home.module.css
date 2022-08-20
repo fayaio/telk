@@ -970,9 +970,8 @@ HEREEEEEEEEEEE */
   line-height: 19px;
   letter-spacing: 0.4px;
   color: #4f4e4e;
-}
 
-/* .cmsection {
+  /* .cmsection {
   max-width: 70%;
   margin: 0 auto;
   padding-top: 40px;
@@ -1010,7 +1009,7 @@ HEREEEEEEEEEEE */
   padding: 15px;
 } */
 
-/* .cmHeader {
+  /* .cmHeader {
   color: #44689a;
   text-align: center;
   text-shadow: 1px 0.5px  #010409;
@@ -1190,7 +1189,7 @@ HEREEEEEEEEEEE */
 
 
 /* Team styling */
-/* 
+  /* 
 .teamSection {
   width: 100%;
   margin-top: 90px;
@@ -1408,3 +1407,4 @@ width: fit-content;
   font-size: 19px;
   color: #0058db;
 } */
+}

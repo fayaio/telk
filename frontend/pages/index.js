@@ -22,7 +22,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Head>
@@ -281,7 +280,6 @@ export default function Home() {
         </div>
 
         {/* Team Section */}
-
         <div className={styles.teamSection}>
           <h3 className={styles.teamHeader}>Meet The Team</h3>
           <hr style={{ borderColor: '#00325a', width: '10%' }}></hr>
