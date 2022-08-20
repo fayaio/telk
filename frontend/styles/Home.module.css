@@ -56,6 +56,8 @@
   .bannerText {
     font-size: 50px;
   }
+
+  
 }
 
 @media screen and (max-width: 748px) {
@@ -65,6 +67,7 @@
   .bannerp {
     font-size: 21px;
   }
+  
 }
 
 @media screen and (max-width: 599px) {
@@ -331,6 +334,16 @@ HEREEEEEEEEEEE */
     margin: 25px;
     grid-template-columns: repeat(1, 1fr);
   }
+  
+  
+}
+
+@media screen and (max-width: 500px) {
+  .exploreheader {
+    font-size: 24px;
+   
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -355,7 +368,7 @@ HEREEEEEEEEEEE */
 
 .card_content {
   padding: 1rem;
-  font-family: Montserrat;
+  font-family: Raleway;
 }
 
 .card_title {
@@ -494,6 +507,8 @@ HEREEEEEEEEEEE */
     width: 80px;
   }
 }
+
+
 
 /* Certificate styling */
 
@@ -970,7 +985,6 @@ HEREEEEEEEEEEE */
   line-height: 19px;
   letter-spacing: 0.4px;
   color: #4f4e4e;
-
   /* .cmsection {
   max-width: 70%;
   margin: 0 auto;
@@ -1315,9 +1329,6 @@ HEREEEEEEEEEEE */
   }
 }
 
-
-
-
 .abtContainer {
   width: 100%;
   background-color: #f7f8f8;
@@ -1408,3 +1419,4 @@ width: fit-content;
   color: #0058db;
 } */
 }
+

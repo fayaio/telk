@@ -161,7 +161,6 @@ const About = () => {
           <Image src="/certificate.svg" alt="" width={600} height={600} />
         </div>
       </div>
-
       <div className={styles.contactsContainer}>
         <h3 className={styles.contactHeader}>Get To Know us More !</h3>
         <hr style={{ borderColor: '#00325a', width: '10%' }}></hr>
