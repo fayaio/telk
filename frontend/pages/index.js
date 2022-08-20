@@ -2,17 +2,27 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import React, { useRef, useState } from 'react';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { EffectCoverflow, Pagination, Navigation } from 'swiper';
-import React from 'react';
+import 'swiper/css/free-mode';
+import 'swiper/css/thumbs';
+import {
+  EffectCoverflow,
+  Pagination,
+  Navigation,
+  FreeMode,
+  Thumbs,
+} from 'swiper';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+
 export default function Home() {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <>
       <Head>
@@ -41,39 +51,6 @@ export default function Home() {
           <ul className={styles.cards}>
             <li>
               <div href="" className={styles.card}>
-                <img src="./pbm.svg" alt="" className={styles.card__image} />
-                <div className={styles.card__overlay}>
-                  <div className={styles.card__header}>
-                    <svg
-                      className={styles.card__arc}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path />
-                    </svg>
-                    <img
-                      src="/bjflog.svg"
-                      alt=""
-                      className={styles.card__thumb}
-                    />
-
-                    <div className={styles.card__headertext}>
-                      <h3 className={styles.card__title}>
-                        Plastic Blowing Machine Space
-                      </h3>
-                      <span className={styles.card__status}> Factory</span>
-                    </div>
-                  </div>
-
-                  <a className={styles.moredetails} href="/properties">
-                    {' '}
-                    More Details
-                  </a>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div href="" className={styles.card}>
                 <img src="./cofo.svg" alt="" className={styles.card__image} />
                 <div className={styles.card__overlay}>
                   <div className={styles.card__header}>
@@ -95,7 +72,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <a className={styles.moredetails} href="/properties">
+                  <a className={styles.moredetails} href="/">
                     {' '}
                     More Details
                   </a>
@@ -130,7 +107,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <a className={styles.moredetails} href="/properties">
+                  <a className={styles.moredetails} href="/">
                     {' '}
                     More Details
                   </a>
@@ -167,7 +144,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <a className={styles.moredetails} href="/properties">
+                  <a className={styles.moredetails} href="/">
                     {' '}
                     More Details
                   </a>
@@ -177,12 +154,130 @@ export default function Home() {
           </ul>
         </div>
 
-        {/* Certificate Section */}
-        <div className={styles.cert}>
-          <h3 className={styles.certHeader}> We Are Certified </h3>
-          <div className={styles.certimg}>
-            <Image src="/certificate.svg" alt="" width={600} height={600} />
-          </div>
+        {/* Who We Are */}
+        <div className={styles.explore}>
+          <h3 className={styles.exploreheader}>Who We Are</h3>
+          <ul className={styles.cardss}>
+            <li className={styles.cards_item}>
+              <div className={styles.cardd}>
+                <div className={styles.card_image}>
+                  <img src="./exploreimg1.svg" />
+                </div>
+                <div className={styles.card_content}>
+                  <h2 className={styles.card_title}>WHAT WE DO</h2>
+                  <p className={styles.card_text}>
+                    BJF Properties and Development Company Ltd. deals with
+                    Property Development, Property Management, Buying and
+                    Selling of property, Property Consultancy and much more.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={styles.cards_item}>
+              <div className={styles.cardd}>
+                <div className={styles.card_image}>
+                  <img src="./exploreimg2.svg" />
+                </div>
+                <div className={styles.card_content}>
+                  <h2 className={styles.card_title}>OUR VISION</h2>
+                  <p className={styles.card_text}>
+                    To be the Topmost property solution provider globally.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className={styles.cards_item}>
+              <div className={styles.cardd}>
+                <div className={styles.card_image}>
+                  <img src="./exploreimg3.svg" />
+                </div>
+                <div className={styles.card_content}>
+                  <h2 className={styles.card_title}>OUR MISSION</h2>
+                  <p className={styles.card_text}>
+                    Our Mission is to provide both clients Locally and in
+                    Diaspora with the property of their dreams without having to
+                    go through family and friends' Trust issues.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.slidesSection}>
+          <h3 className={styles.slidesHeader}>3D Hotel Proposed Development</h3>
+
+          <Swiper
+            style={{
+              '--swiper-navigation-color': '#efefef',
+              '--swiper-pagination-color': '#efefef',
+            }}
+            spaceBetween={10}
+            navigation={true}
+            thumbs={{ swiper: thumbsSwiper }}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className={styles.myhotelSwiper2}
+          >
+            <SwiperSlide>
+              <img src="/hotel1.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel2.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel3.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel4.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel5.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel6.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel7.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel8.svg" />
+            </SwiperSlide>
+          </Swiper>
+
+          <Swiper
+            onSwiper={setThumbsSwiper}
+            spaceBetween={90}
+            slidesPerView={5}
+            freeMode={true}
+            watchSlidesProgress={true}
+            modules={[FreeMode, Navigation, Thumbs]}
+            className={styles.myhotelSwiper}
+          >
+            <SwiperSlide>
+              <img src="/hotel1.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel2.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel3.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel4.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel5.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel6.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel7.svg" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src="/hotel8.svg" />
+            </SwiperSlide>
+          </Swiper>
         </div>
 
         {/* Team Section */}
@@ -273,58 +368,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* 
-        <div className={styles.explore}>
-          <h3 className={styles.exploreheader}>
-            Explore Properties In Nigeria
-          </h3>
-          <ul className={styles.cards}>
-            <li className={styles.cards_item}>
-              <div className={styles.card}>
-                <div className={styles.card_image}>
-                  <img src="./exploreimg1.svg" />
-                </div>
-                <div className={styles.card_content}>
-                  <h2 className={styles.card_title}>WHAT WE DO</h2>
-                  <p className={styles.card_text}>
-                    BJF Properties and Development Company Ltd. deals with
-                    Property Development, Property Management, Buying and
-                    Selling of property, Property Consultancy and much more.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li className={styles.cards_item}>
-              <div className={styles.card}>
-                <div className={styles.card_image}>
-                  <img src="./exploreimg2.svg" />
-                </div>
-                <div className={styles.card_content}>
-                  <h2 className={styles.card_title}>OUR VISION</h2>
-                  <p className={styles.card_text}>
-                    To be the Topmost property solution provider globally.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li className={styles.cards_item}>
-              <div className={styles.card}>
-                <div className={styles.card_image}>
-                  <img src="./exploreimg3.svg" />
-                </div>
-                <div className={styles.card_content}>
-                  <h2 className={styles.card_title}>OUR MISSION</h2>
-                  <p className={styles.card_text}>
-                    Our Mission is to provide both clients Locally and in
-                    Diaspora with the property of their dreams without having to
-                    go through family and friends' Trust issues.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div> */}
 
         {/*       
       Testimonials Section */}

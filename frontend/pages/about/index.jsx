@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './about.module.css';
+import styless from '../../styles/Home.module.css';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -151,6 +152,13 @@ const About = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className={styless.cert}>
+        <h3 className={styless.certHeader}> We Are Certified </h3>
+        <div className={styless.certimg}>
+          <Image src="/certificate.svg" alt="" width={600} height={600} />
         </div>
       </div>
 
