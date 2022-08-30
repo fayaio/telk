@@ -66,7 +66,7 @@ export default function Home() {
                     />
 
                     <div className={styles.card__headertext}>
-                      <h3 className={styles.card__title}>C Of O Factory</h3>
+                      <h3 className={styles.card__title}>Factory For Sales</h3>
                       <span className={styles.card__status}> Factory</span>
                     </div>
                   </div>
