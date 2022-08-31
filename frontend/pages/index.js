@@ -50,9 +50,6 @@ export default function Home() {
           <ul className={styles.ecardss}>
             <li className={styles.ecards_item}>
               <div className={styles.ecardd}>
-                <div className={styles.ecard_image}>
-                  <img src="./factorycollage.svg" />
-                </div>
                 <div href="" className={styles.card}>
                   <img
                     src="./factorycollage.svg"
@@ -112,12 +109,9 @@ export default function Home() {
 
             <li className={styles.ecards_item}>
               <div className={styles.ecardd}>
-                <div className={styles.ecard_image}>
-                  <img src="./estatecollage.svg" />
-                </div>
                 <div href="" className={styles.card}>
                   <img
-                    src="./factorycollage.svg"
+                    src="./estatecollage.svg"
                     alt=""
                     className={styles.card__image}
                   />
