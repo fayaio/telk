@@ -47,80 +47,13 @@ export default function Home() {
             Explore Properties In Nigeria
           </h3>
 
-          <ul className={styles.cards}>
-            <li>
-              <div href="" className={styles.card}>
-                <img src="./cofo.svg" alt="" className={styles.card__image} />
-                <div className={styles.card__overlay}>
-                  <div className={styles.card__header}>
-                    <svg
-                      className={styles.card__arc}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path />
-                    </svg>
-                    <img
-                      src="/bjflog.svg"
-                      alt=""
-                      className={styles.card__thumb}
-                    />
-
-                    <div className={styles.card__headertext}>
-                      <h3 className={styles.card__title}>Factory For Sales</h3>
-                      <span className={styles.card__status}> Factory</span>
-                    </div>
-                  </div>
-
-                  <a className={styles.moredetails} href="/">
-                    {' '}
-                    More Details
-                  </a>
+          <ul className={styles.ecardss}>
+            <li className={styles.ecards_item}>
+              <div className={styles.ecardd}>
+                <div className={styles.ecard_image}>
+                  <img src="./factorycollage.svg" />
                 </div>
-              </div>
-            </li>
 
-            <li>
-              <div href="" className={styles.card}>
-                <img
-                  src="./cofoEstate.svg"
-                  alt=""
-                  className={styles.card__image}
-                />
-                <div className={styles.card__overlay}>
-                  <div className={styles.card__header}>
-                    <svg
-                      className={styles.card__arc}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path />
-                    </svg>
-                    <img
-                      src="/bjflog.svg"
-                      alt=""
-                      className={styles.card__thumb}
-                    />
-
-                    <div className={styles.card__headertext}>
-                      <h3 className={styles.card__title}>C Of O Mini Estate</h3>
-                      <span className={styles.card__status}> Estate</span>
-                    </div>
-                  </div>
-
-                  <a className={styles.moredetails} href="/">
-                    {' '}
-                    More Details
-                  </a>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div href="" className={styles.card}>
-                <img
-                  src="./waterproduction.svg"
-                  alt=""
-                  className={styles.card__image}
-                />
                 <div className={styles.card__overlay}>
                   <div className={styles.card__header}>
                     <svg
@@ -147,6 +80,14 @@ export default function Home() {
                     {' '}
                     More Details
                   </a>
+                </div>
+              </div>
+            </li>
+
+            <li className={styles.ecards_item}>
+              <div className={styles.ecardd}>
+                <div className={styles.ecard_image}>
+                  <img src="./estatecollage.svg" />
                 </div>
               </div>
             </li>
