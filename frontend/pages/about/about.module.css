@@ -1,5 +1,5 @@
 .abtBanner {
-  background: url("https://www.saint-gobain-sekurit.com/sites/hps-mac3-sekurit-sekurit/files/styles/hero_banner_sub_segment_page_desktop/public/2021-03/Hero%20Banner%20stories_0.jpg?itok=hDTDYxzO");
+  background: url('https://www.saint-gobain-sekurit.com/sites/hps-mac3-sekurit-sekurit/files/styles/hero_banner_sub_segment_page_desktop/public/2021-03/Hero%20Banner%20stories_0.jpg?itok=hDTDYxzO');
   height: 32vh;
   display: flex;
   align-items: center;
@@ -26,66 +26,57 @@
   text-align: center;
 }
 
-@media screen and (max-width:699px){
+@media screen and (max-width: 699px) {
   .bannerHeader {
     font-size: 24px;
   }
-  
+
   .bannersubH {
-     font-size: 16px;
+    font-size: 16px;
   }
 }
 
-.cmContainer{
-
-
-  background-color: #F5F7FA;
+.cmContainer {
+  background-color: #f5f7fa;
   padding-bottom: 40px;
 }
 
-.cmm{
+.cmm {
   margin-top: -40px;
 }
-.cmProfile{
+.cmProfile {
   background: rgb(248, 248, 248);
-  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   width: 90%;
   margin: 4% auto;
   display: flex;
   height: fit-content;
   border-radius: 20px;
-
 }
 
-.cm{
+.cm {
   flex-basis: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-
-
- .cmImg img{
+.cmImg img {
   height: auto;
   width: 400px;
   vertical-align: middle;
+}
 
- }
-
-
-.cminfo{
+.cminfo {
   width: 70%;
   text-align: left;
   margin: 0px 40px;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-
- 
 }
 
-.cminfoHeader{
+.cminfoHeader {
   text-align: center;
   font-family: Raleway;
   color: #242424;
@@ -94,39 +85,33 @@
   padding-top: 50px;
 }
 
-.cmName{
-font-size: 16px;
-margin-top: -20px;
-font-weight: 200;
-color:#007ab7;
+.cmName {
+  font-size: 16px;
+  margin-top: -20px;
+  font-weight: 200;
+  color: #007ab7;
 }
 
-.cmSpeech{
+.cmSpeech {
   margin-top: -10px;
   line-height: 37px;
   font-family: Raleway;
- 
 }
-.sndp{
-font-size: 17.5px;
+.sndp {
+  font-size: 17.5px;
   color: #007ab7;
-
 }
 
-@media screen and (max-width:1016px){
-  .cm{
+@media screen and (max-width: 1016px) {
+  .cm {
     flex-direction: column;
-    
   }
-  .cmProfile{
+  .cmProfile {
     width: 70%;
-   
   }
-
-
 }
-@media screen and (max-width:999px){
-  .cminfo{
+@media screen and (max-width: 999px) {
+  .cminfo {
     width: 80%;
     text-align: left;
     margin: 0px 40px;
@@ -137,105 +122,82 @@ font-size: 17.5px;
     overflow: hidden;
     padding-top: 9px;
 
-   overflow: scroll;
+    overflow: scroll;
   }
-  .cmProfile{
+  .cmProfile {
     width: 90%;
-   
   }
 
-  .cmSpeech{
+  .cmSpeech {
     margin-top: -10px;
     line-height: 37px;
     font-family: Raleway;
     text-overflow: ellipsis;
-   
   }
-  .sndp{
+  .sndp {
     font-size: 15.5px;
-      color: #007ab7;
-    
-    
-    }
+    color: #007ab7;
+  }
 
-    .cmName{
-      
-      margin-top: 12px;
-      
-      }
-    
-
+  .cmName {
+    margin-top: 12px;
+  }
 }
 
-@media screen and (max-width:636px){
-  .cmImg img{
+@media screen and (max-width: 636px) {
+  .cmImg img {
     height: auto;
     width: 200px;
     vertical-align: middle;
-  
-   }
-   
-  
-  
-  .cminfoHeader{
-    
+  }
+
+  .cminfoHeader {
     font-size: 26px;
-    
   }
-  
-  .cmName{
-  font-size: 16px;
-  font-weight: 200;
+
+  .cmName {
+    font-size: 16px;
+    font-weight: 200;
   }
-  
-  .cmSpeech{
+
+  .cmSpeech {
     margin-top: -10px;
     line-height: 25px;
   }
-
 }
 
-
-@media screen and (max-width:639px){
-  .cm{
+@media screen and (max-width: 639px) {
+  .cm {
     flex-direction: column;
-    
   }
-  .cmProfile{
+  .cmProfile {
     width: 70%;
     height: fit-content;
   }
-  .cmImg{
+  .cmImg {
     width: 100%;
     height: 100%;
     height: auto;
     max-width: 100%;
     vertical-align: middle;
-    
   }
-  .cmImg img{
+  .cmImg img {
     width: 100%;
     height: 100%;
     height: auto;
     max-width: 100%;
     vertical-align: middle;
-   }
-
-   
-  
+  }
 }
 
-@media screen and (max-width:500px){
-  .cmProfile{
+@media screen and (max-width: 500px) {
+  .cmProfile {
     width: 70%;
     height: fit-content;
   }
-
-
 }
 
-
-.teamContainer{
+.teamContainer {
   background-color: #fff;
   margin: auto;
   display: flex;
@@ -248,12 +210,12 @@ font-size: 17.5px;
   padding-top: 90px;
 }
 
-.profile{
+.profile {
   background: #f9f9f9;
- 
-  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+
+  box-shadow: 0 2px 6px 0 rgba(47, 83, 151, 0.1);
   border-radius: 3px;
- margin: 16px 16px;
+  margin: 16px 16px;
   max-width: 390px;
   text-align: center;
   transition: 300ms;
@@ -261,75 +223,70 @@ font-size: 17.5px;
 }
 
 .profile:hover {
-  box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
+  box-shadow: 0 0 20px 9px rgba(0, 0, 0, 0.03);
 }
 
-.ourTeam{
-padding: 10px 0 20px;
-background: #f9f9f9;
-text-align: center;
-overflow: hidden;
-position: relative;
-border-top: 5px solid #00325a;
+.ourTeam {
+  padding: 10px 0 20px;
+  background: #f9f9f9;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border-top: 5px solid #00325a;
 }
 
-.ourTeam .teamPics{
+.ourTeam .teamPics {
   display: inline-block;
   width: 130px;
   height: 130px;
   margin-bottom: 50px;
   z-index: 2;
   position: relative;
-
 }
 
-.ourTeam .teamPics:before{
-  content: "";
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: #00325a;
-    position: absolute;
-    bottom: 135%;
-    right: 0;
-    left: 0;
-    opacity: 1;
-    transform: scale(3);
-    transition: all 0.3s linear 0s;
-    z-index: -1;
-    
-}
-
-.ourTeam .teamPics:after{
-  content: "";
+.ourTeam .teamPics:before {
+  content: '';
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  
+  background: #00325a;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 1;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+  z-index: -1;
+}
+
+.ourTeam .teamPics:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
   position: absolute;
   top: 0;
   left: 0;
-  
+
   transition: all 0.3s linear 0s;
-
 }
 
-.frame{
+.frame {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #eee;
-    height: 130px;
-    width: 130px;
-    padding: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  height: 130px;
+  width: 130px;
+  padding: 5px;
 
-    border-radius: 190px;
-    box-shadow: 3px 3px 10px #c3c4ca51;
+  border-radius: 190px;
+  box-shadow: 3px 3px 10px #c3c4ca51;
 }
 
-
-
-.ourTeam .teamPics Image{
+.ourTeam .teamPics Image {
   width: 100%;
   height: auto;
   border-radius: 50%;
@@ -338,34 +295,32 @@ border-top: 5px solid #00325a;
   box-shadow: 0 0 0 14px #f7f5ec;
   transform: scale(0.7);
   position: relative;
-  
 }
 
-.ourTeam:hover .teamPics Image{
+.ourTeam:hover .teamPics Image {
   box-shadow: 0 0 0 14px #f7f5ec;
-    transform: scale(0.7);
+  transform: scale(0.7);
 }
 
-
-.teamNames{
+.teamNames {
   color: #007ab7;
-    font-size: 19px;
-    font-family: Raleway;
-    margin-top: 4px;
+  font-size: 19px;
+  font-family: Raleway;
+  margin-top: 4px;
 }
 
-.teamroles{
+.teamroles {
   transition: 500ms;
   font-weight: 300;
   margin-bottom: 30px;
-  color: #98A0A6;
+  color: #98a0a6;
   color: #5f5c5c;
   font-family: Montserrat;
   font-size: 16px;
   margin-top: -20px;
 }
 
-.mbrDescription{
+.mbrDescription {
   font-family: Montserrat;
   font-size: 15px;
   color: #4a4b4d;
@@ -375,73 +330,4 @@ border-top: 5px solid #00325a;
   margin: auto;
   line-height: 19px;
   word-spacing: 3px;
-}
-
-.contactsContainer{
-  background: linear-gradient(rgba(56, 89, 56, 0.25), rgba(203, 203, 203, 0.449)),url("../../public/bg.svg");
-  margin-top: -36px;
-}
-
-
-
-.contactHeader{
-  text-align: center;
-  font-family: Raleway;
-  color: #00325a;
-  font-size: 28px;
-  font-weight: 500;
-  padding-top: 50px;
-}
-
-.contactItems{
-  padding-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-bottom: 80px;
-  width: 80%;
-  margin: auto;
-
-
-}
-
-.contactC{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.icon{
-  width: 50px;
-  height: 50px;
-  padding: 20px;
-  border-radius: 50%;
-  background-color: #e9e9e9;
-}
-
-.iconDes{
-  font-family: Raleway;
-  color: #204e20e6;
-}
-
-.contactO{
-  margin-top:-12px;
-  font-family: Montserrat;
-  font-size: 13px;
-  color: #4a4a4a;
-}
-
-@media screen and (max-width: 890px){
-  .contactItems{
-    grid-template-columns: repeat(1, 1fr);
-    gap: 22px;
-
-  }
-}
-
-@media screen and (max-width:699px){
-  .contactHeader{
-    font-size: 22px;
-  }
-
 }

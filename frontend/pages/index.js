@@ -55,52 +55,47 @@ export default function Home() {
                   alt=""
                   className={styles.card__image}
                 />
-                <div className={styles.card__overlay}>
-                  <div className={styles.card__header}>
-                    <svg
-                      className={styles.card__arc}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path />
-                    </svg>
-                    <img
-                      src="/bjflog.svg"
-                      alt=""
-                      className={styles.card__thumb}
-                    />
+                <div className={styles.explore__content}>
+                  <div className={styles.card__overlay}>
+                    <div className={styles.card__header}>
+                      <img
+                        src="/bjflog.svg"
+                        alt=""
+                        className={styles.card__thumb}
+                      />
 
-                    <div className={styles.card__headertext}>
-                      <h3 className={styles.card__title}>
-                        FACTORY <span>FOR SALE</span>
-                      </h3>
-                      <li className={styles.card__status}>
-                        <h4>
-                          Title: <span>C OF O</span> &#160;&#160;&#160;&#160;
-                          &#160;&#160;&#160;&#160;&#160; Size:{' '}
-                          <span>1287.6245sqms</span>
-                        </h4>
-                        {/* <h4>
+                      <div className={styles.card__headertext}>
+                        <h3 className={styles.card__title}>
+                          FACTORY <span>FOR SALE</span>
+                        </h3>
+                        <li className={styles.card__status}>
+                          <h4>
+                            Title: <span>C OF O</span>
+                          </h4>
+
+                          <h4>
                             Size: <span>1287.6245sqms</span>
-                          </h4> */}
-                        <h4>
-                          Property Location:{' '}
-                          <span>Agege, Ifako/Ijaiye Area Lagos</span>
-                        </h4>
-                      </li>
-                      <div className={styles.asskingp__section}>
-                        <div className={styles.asskingpline1}></div>
-                        <h2 className={styles.asskingp}>
-                          ASKING PRICE: <span>300M</span>
-                        </h2>
-                        <div className={styles.asskingpline2}></div>
+                          </h4>
+                          <h4 className={styles.extra__padding}>
+                            Property Location:{' '}
+                            <span>Agege, Ifako/Ijaiye Area Lagos</span>
+                          </h4>
+                        </li>
+                        <div className={styles.asskingp__section}>
+                          <div className={styles.asskingpline1}></div>
+                          <h2 className={styles.asskingp}>
+                            ASKING PRICE: <span>300M</span>
+                          </h2>
+                          <div className={styles.asskingpline2}></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <a className={styles.moredetails} href="/">
-                    {' '}
-                    More Details
-                  </a>
+                    <a className={styles.moredetails} href="/contact">
+                      {' '}
+                      GIVE US A CALL
+                    </a>
+                  </div>
                 </div>
               </div>
             </li>
@@ -112,56 +107,50 @@ export default function Home() {
                   alt=""
                   className={styles.card__image}
                 />
-                <div className={styles.card__overlay}>
-                  <div className={styles.card__header}>
-                    <svg
-                      className={styles.card__arc}
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path />
-                    </svg>
-                    <img
-                      src="/bjflog.svg"
-                      alt=""
-                      className={styles.card__thumb}
-                    />
+                <div className={styles.explore__content}>
+                  <div className={styles.card__overlay}>
+                    <div className={styles.card__header}>
+                      <img
+                        src="/bjflog.svg"
+                        alt=""
+                        className={styles.card__thumb}
+                      />
 
-                    <div className={styles.card__headertext}>
-                      <h3 className={styles.card__title}>
-                        MINI ESTATE <span>FOR SALE</span>
-                      </h3>
-                      <h5 className={styles.card__estatedetails}>
-                        Housing 5Bungalows with 5numbers of 3bedroom
-                        <br></br>3 numbers of 2bedroom and 1 Room self-contain
-                        with a <br></br>Security house
-                      </h5>
-                      <li className={styles.card__status}>
-                        <h4>
-                          Title: <span>C OF O</span> &#160;&#160;&#160;&#160;
-                          &#160;&#160;&#160;&#160;&#160; Size:{' '}
-                          <span>1927.487sqms</span>
-                        </h4>
-                        {/* <h4>
+                      <div className={styles.card__headertext}>
+                        <h3 className={styles.card__title}>
+                          MINI ESTATE <span>FOR SALE</span>
+                        </h3>
+                        <h5 className={styles.card__estatedetails}>
+                          Housing 5Bungalows with 5numbers of 3bedroom
+                          <br></br>3 numbers of 2bedroom and 1 Room self-contain
+                          with a <br></br>Security house
+                        </h5>
+                        <li className={styles.card__status}>
+                          <h4>
+                            Title: <span>C OF O</span>
+                          </h4>
+                          <h4>
                             Size: <span>1287.6245sqms</span>
-                          </h4> */}
-                        <h4>
-                          Property Location: <span>Ait Area, Alagbado</span>
-                        </h4>
-                      </li>
-                      <div className={styles.asskingp__section}>
-                        <div className={styles.asskingpline1}></div>
-                        <h2 className={styles.asskingp}>
-                          ASKING PRICE: <span>150M</span>
-                        </h2>
-                        <div className={styles.asskingpline2}></div>
+                          </h4>
+                          <h4>
+                            Property Location: <span>Ait Area, Alagbado</span>
+                          </h4>
+                        </li>
+                        <div className={styles.asskingp__section}>
+                          <div className={styles.asskingpline1}></div>
+                          <h2 className={styles.asskingp}>
+                            ASKING PRICE: <span>150M</span>
+                          </h2>
+                          <div className={styles.asskingpline2}></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
 
-                  <a className={styles.moredetails} href="/">
-                    {' '}
-                    More Details
-                  </a>
+                    <a className={styles.moredetails} href="/contact">
+                      {' '}
+                      GIVE US A CALL
+                    </a>
+                  </div>
                 </div>
               </div>
             </li>

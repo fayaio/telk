@@ -32,6 +32,11 @@ const Nav = () => {
                 <a>About Us</a>
               </Link>
             </div>
+            <div className="navlink">
+              <Link onClick={closeMobileMenu} href="/contact">
+                <a>Contact Us</a>
+              </Link>
+            </div>
 
             <div className="navlink">
               <Link onClick={closeMobileMenu} href="/">
