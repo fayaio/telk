@@ -51,58 +51,6 @@ export default function Home() {
             <li>
               <div href="" className={styles.card}>
                 <img
-                  src="./factorycollage.svg"
-                  alt=""
-                  className={styles.card__image}
-                />
-                <div className={styles.explore__content}>
-                  <div className={styles.card__overlay}>
-                    <div className={styles.card__header}>
-                      <img
-                        src="/bjflog.svg"
-                        alt=""
-                        className={styles.card__thumb}
-                      />
-
-                      <div className={styles.card__headertext}>
-                        <h3 className={styles.card__title}>
-                          FACTORY <span>FOR SALE</span>
-                        </h3>
-                        <li className={styles.card__status}>
-                          <h4>
-                            Title: <span>C OF O</span>
-                          </h4>
-
-                          <h4>
-                            Size: <span>1287.6245sqms</span>
-                          </h4>
-                          <h4 className={styles.extra__padding}>
-                            Property Location:{' '}
-                            <span>Agege, Ifako/Ijaiye Area Lagos</span>
-                          </h4>
-                        </li>
-                        <div className={styles.asskingp__section}>
-                          <div className={styles.asskingpline1}></div>
-                          <h2 className={styles.asskingp}>
-                            ASKING PRICE: <span>300M</span>
-                          </h2>
-                          <div className={styles.asskingpline2}></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <a className={styles.moredetails} href="/contact">
-                      {' '}
-                      GIVE US A CALL
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div href="" className={styles.card}>
-                <img
                   src="./estatecollage.svg"
                   alt=""
                   className={styles.card__image}
@@ -140,6 +88,58 @@ export default function Home() {
                           <div className={styles.asskingpline1}></div>
                           <h2 className={styles.asskingp}>
                             ASKING PRICE: <span>150M</span>
+                          </h2>
+                          <div className={styles.asskingpline2}></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <a className={styles.moredetails} href="/contact">
+                      {' '}
+                      GIVE US A CALL
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div href="" className={styles.card}>
+                <img
+                  src="./factorycollage.svg"
+                  alt=""
+                  className={styles.card__image}
+                />
+                <div className={styles.explore__content}>
+                  <div className={styles.card__overlay}>
+                    <div className={styles.card__header}>
+                      <img
+                        src="/bjflog.svg"
+                        alt=""
+                        className={styles.card__thumb}
+                      />
+
+                      <div className={styles.card__headertext}>
+                        <h3 className={styles.card__title}>
+                          FACTORY <span>FOR SALE</span>
+                        </h3>
+                        <li className={styles.card__status}>
+                          <h4>
+                            Title: <span>C OF O</span>
+                          </h4>
+
+                          <h4>
+                            Size: <span>1287.6245sqms</span>
+                          </h4>
+                          <h4 className={styles.extra__padding}>
+                            Property Location:{' '}
+                            <span>Agege, Ifako/Ijaiye Area Lagos</span>
+                          </h4>
+                        </li>
+                        <div className={styles.asskingp__section}>
+                          <div className={styles.asskingpline1}></div>
+                          <h2 className={styles.asskingp}>
+                            ASKING PRICE: <span>300M</span>
                           </h2>
                           <div className={styles.asskingpline2}></div>
                         </div>
