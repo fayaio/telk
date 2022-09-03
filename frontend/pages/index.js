@@ -97,7 +97,7 @@ export default function Home() {
                         Size: <span>1287.6245sqms</span>
                       </h4>
                       <h4>
-                        Property Location: <span>Ait Area, Alagbado</span>
+                        Property Location: <span>Lagos, Nigeria</span>
                       </h4>
                     </li>
                     <Box component="div" className={styles.asskingp__section}>
@@ -153,8 +153,7 @@ export default function Home() {
                         Size: <span>1287.6245sqms</span>
                       </h4>
                       <h4 className={styles.extra__padding}>
-                        Property Location:{' '}
-                        <span>Agege, Ifako/Ijaiye Area Lagos</span>
+                        Property Location: <span> Lagos, Nigeria</span>
                       </h4>
                     </li>
                     <Box component="div" className={styles.asskingp__section}>
