@@ -39,7 +39,7 @@ const Nav = () => {
             </div>
 
             <div className="navlink">
-              <Link onClick={closeMobileMenu} href="/">
+              <Link onClick={closeMobileMenu} href="/properties">
                 <a>Properties</a>
               </Link>
             </div>

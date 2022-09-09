@@ -27,11 +27,6 @@ const About = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.abtBanner}>
-        <h2 className={styles.bannerHeader}>ABOUT US</h2>
-        <p className={styles.bannersubH}> Who We Are And What We Do </p>
-      </div>
-
       <div className={styles.cmContainer}>
         <div className={styles.cmm}>
           <h3 className={styles.cminfoHeader}> Chairman's Speech</h3>
@@ -78,7 +73,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
       <div className={styles.teamContainer}>
         <div className={styles.profile}>
           <div className={styles.ourTeam}>
@@ -154,7 +148,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
       <div className={styless.cert}>
         <h3 className={styless.certHeader}> We Are Certified </h3>
         <div className={styless.certimg}>
