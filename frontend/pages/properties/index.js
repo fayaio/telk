@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import styles from './properties.module.css';
 const properties = () => {
   return (
     <>
