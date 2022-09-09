@@ -10,23 +10,8 @@ const properties = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <h1>Properties</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          exercitationem ipsam quam explicabo nisi voluptas reiciendis facilis
-          quod ab nam.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          exercitationem ipsam quam explicabo nisi voluptas reiciendis facilis
-          quod ab nam.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          exercitationem ipsam quam explicabo nisi voluptas reiciendis facilis
-          quod ab nam.
-        </p>
+      <div className={styles.propBanner}>
+        <p className={styles.bannersubH}> Explore Our Properties </p>
       </div>
     </>
   );
