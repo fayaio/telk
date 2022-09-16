@@ -42,9 +42,6 @@ export default function Properties() {
     <>
       <Head>
         <title>BJF Properties | Properties</title>
-
-        <meta name="keywords" content="BJF Properties" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div>

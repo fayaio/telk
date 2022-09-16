@@ -24,9 +24,6 @@ const About = () => {
     <>
       <Head>
         <title>BJF Properties | About</title>
-
-        <meta name="keywords" content="BJF Properties" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.abtBanner}>
