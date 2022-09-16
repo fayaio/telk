@@ -46,6 +46,18 @@ export default function Properties() {
         <meta name="keywords" content="BJF Properties" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <div>
+        <h1>Hello World</h1>
+        <Banner
+          purpose="Esta A PROPERTY"
+          title1="Rental Homes For"
+          title2="Everyone"
+          desc1="Explore Estates, Homes, Factories"
+          desc2="and more"
+          buttonText="Explore"
+        />
+      </div>
     </>
   );
 }
