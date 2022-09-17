@@ -233,7 +233,10 @@ export default function Home() {
             }}
             spaceBetween={10}
             navigation={true}
-            thumbs={{ swiper: thumbsSwiper }}
+            thumbs={{
+              swiper:
+                thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+            }}
             modules={[FreeMode, Navigation, Thumbs]}
             className={styles.myhotelSwiper2}
           >
