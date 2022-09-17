@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <img src="/bjflog.svg" alt="" width={180} height={140} />
+        <img src="/bjflog.svg" alt="BJF logo" width={180} height={140} />
       </div>
 
       <ul className="footer-right">

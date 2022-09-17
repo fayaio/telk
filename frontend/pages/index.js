@@ -62,6 +62,7 @@ export default function Home() {
                   component="img"
                   height="300"
                   image="/estatecollage.svg"
+                  alt="BJF mini estate for sale"
                 />
                 <CardContent>
                   {/* <Box component="div" className={styles.card__overlay}>
@@ -69,7 +70,7 @@ export default function Home() {
                   </Box> */}
                   <img
                     src="/bjflog.svg"
-                    alt=""
+                    alt="BJF Logo"
                     className={styles.card__thumb}
                   />
                   <Box component="div" className={styles.card__headertext}>
@@ -121,11 +122,12 @@ export default function Home() {
                   component="img"
                   height="300"
                   image="/factorycollage.svg"
+                  alt="alt='BJF factory for sale'"
                 />
                 <CardContent>
                   <img
                     src="/bjflog.svg"
-                    alt=""
+                    alt="BJF Logo"
                     className={styles.card__thumb}
                   />
                   <Box component="div" className={styles.card__headertext}>
@@ -180,7 +182,7 @@ export default function Home() {
             <li className={styles.cards_item}>
               <div className={styles.cardd}>
                 <div className={styles.card_image}>
-                  <img src="./exploreimg1.svg" />
+                  <img src="./exploreimg1.svg" alt="what we do" />
                 </div>
                 <div className={styles.card_content}>
                   <h2 className={styles.card_title}>WHAT WE DO</h2>
@@ -195,7 +197,7 @@ export default function Home() {
             <li className={styles.cards_item}>
               <div className={styles.cardd}>
                 <div className={styles.card_image}>
-                  <img src="./exploreimg2.svg" />
+                  <img src="./exploreimg2.svg" alt="our vision" />
                 </div>
                 <div className={styles.card_content}>
                   <h2 className={styles.card_title}>OUR VISION</h2>
@@ -208,7 +210,7 @@ export default function Home() {
             <li className={styles.cards_item}>
               <div className={styles.cardd}>
                 <div className={styles.card_image}>
-                  <img src="./exploreimg3.svg" />
+                  <img src="./exploreimg3.svg" alt="our mission" />
                 </div>
                 <div className={styles.card_content}>
                   <h2 className={styles.card_title}>OUR MISSION</h2>
@@ -241,28 +243,28 @@ export default function Home() {
             className={styles.myhotelSwiper2}
           >
             <SwiperSlide>
-              <img src="/hotel1.svg" />
+              <img src="/hotel1.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel2.svg" />
+              <img src="/hotel2.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel3.svg" />
+              <img src="/hotel3.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel4.svg" />
+              <img src="/hotel4.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel5.svg" />
+              <img src="/hotel5.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel6.svg" />
+              <img src="/hotel6.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel7.svg" />
+              <img src="/hotel7.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel8.svg" />
+              <img src="/hotel8.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
           </Swiper>
 
@@ -276,28 +278,28 @@ export default function Home() {
             className={styles.myhotelSwiper}
           >
             <SwiperSlide>
-              <img src="/hotel1.svg" />
+              <img src="/hotel1.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel2.svg" />
+              <img src="/hotel2.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel3.svg" />
+              <img src="/hotel3.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel4.svg" />
+              <img src="/hotel4.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel5.svg" />
+              <img src="/hotel5.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel6.svg" />
+              <img src="/hotel6.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel7.svg" />
+              <img src="/hotel7.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="/hotel8.svg" />
+              <img src="/hotel8.svg" alt="BJF 3D hotel proposed development" />
             </SwiperSlide>
           </Swiper>
         </div>
