@@ -38,12 +38,6 @@ export default function Home() {
   const classes = useStyles();
   return (
     <>
-      <Head>
-        <title>BJF Properties | Home</title>
-        <meta name="keywords" content="BJF Properties" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <div className={styles.homeContainer}>
         {/* Banner Section */}
         <div className={styles.bannerContainer}>
@@ -239,7 +233,10 @@ export default function Home() {
             }}
             spaceBetween={10}
             navigation={true}
-            thumbs={{ swiper: thumbsSwiper }}
+            thumbs={{
+              swiper:
+                thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+            }}
             modules={[FreeMode, Navigation, Thumbs]}
             className={styles.myhotelSwiper2}
           >

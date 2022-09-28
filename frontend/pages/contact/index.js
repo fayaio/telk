@@ -23,9 +23,6 @@ const Contact = () => {
     <>
       <Head>
         <title>BJF Properties | Contact</title>
-
-        <meta name="keywords" content="BJF Properties" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.contactsContainer}>
