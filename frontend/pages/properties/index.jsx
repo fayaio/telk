@@ -45,7 +45,8 @@ export default function Properties() {
       </Head>
 
       <div>
-        <h1>Hello World</h1>
+        <h1></h1>
+        
         <div
           purpose="Esta A PROPERTY"
           title1="Rental Homes For"
