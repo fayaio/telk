@@ -46,6 +46,7 @@ export default function Properties() {
 
       <div>
         <h1></h1>
+        
         <div
           purpose="Esta A PROPERTY"
           title1="Rental Homes For"
