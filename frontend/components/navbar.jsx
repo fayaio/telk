@@ -17,7 +17,7 @@ const Nav = () => {
       <div className="navContainer">
         <nav className="navbar">
           <Link href="/">
-            <img className="navbar-logo" src="/bjflog.svg" />
+            <img className="navbar-logo" src="/bjflog.svg" alt="BJF logo" />
           </Link>
           {/* <FontAwesomeIcon className="nav-close" icon={faXmark}></FontAwesomeIcon> */}
           <div className={click ? 'navitems active' : 'navitems'}>

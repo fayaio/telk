@@ -39,7 +39,10 @@ const About = () => {
           <div className={styles.cmProfile}>
             <div className={styles.cm}>
               <div className={styles.cmImg}>
-                <img src="/chairmanpic.svg" />
+                <img
+                  src="/chairmanpic.svg"
+                  alt="chairman samuel jegede's image"
+                />
               </div>
               <div className={styles.cminfo}>
                 <p className={styles.cmSpeech}>
@@ -82,7 +85,12 @@ const About = () => {
           <div className={styles.ourTeam}>
             <div className={styles.teamPics}>
               <div className={styles.frame}>
-                <Image src="/Rufus.svg" width={130} height={130} />
+                <Image
+                  src="/Rufus.svg"
+                  width={130}
+                  height={130}
+                  alt="general manager, mr rufus idoun's image"
+                />
               </div>
             </div>
 
@@ -105,7 +113,12 @@ const About = () => {
           <div className={styles.ourTeam}>
             <div className={styles.teamPics}>
               <div className={styles.frame}>
-                <Image src="/Ann.svg" width={130} height={130} />
+                <Image
+                  src="/Ann.svg"
+                  width={130}
+                  height={130}
+                  alt="executive secretary, ann ohaegbue's image"
+                />
               </div>
             </div>
 
@@ -130,7 +143,12 @@ const About = () => {
           <div className={styles.ourTeam}>
             <div className={styles.teamPics}>
               <div className={styles.frame}>
-                <Image src="/Mark.svg" width={130} height={130} />
+                <Image
+                  src="/Mark.svg"
+                  width={130}
+                  height={130}
+                  alt="legal adviser, mark aliu's image"
+                />
               </div>
             </div>
 
@@ -155,7 +173,12 @@ const About = () => {
       <div className={styless.cert}>
         <h3 className={styless.certHeader}> We Are Certified </h3>
         <div className={styless.certimg}>
-          <Image src="/certificate.svg" alt="" width={600} height={600} />
+          <Image
+            src="/certificate.svg"
+            alt="BJF certificate Of incorporation image"
+            width={600}
+            height={600}
+          />
         </div>
       </div>
 
@@ -188,7 +211,10 @@ const About = () => {
             <SwiperSlide className={styless.swiperSlide}>
               <div className={styless.testibox}>
                 <div className={styless.testiprofile}>
-                  <img src="https://www.seekpng.com/png/detail/72-729756_how-to-add-a-new-user-to-your.png" />
+                  <img
+                    src="https://www.seekpng.com/png/detail/72-729756_how-to-add-a-new-user-to-your.png"
+                    alt="user icon image"
+                  />
                   <div className={styless.information}>
                     <p className={styless.testfiers}>CEO Comet Networks</p>
                     <span>Atlanta Georgia (USA)</span>
@@ -215,7 +241,10 @@ const About = () => {
             <SwiperSlide className={styless.swiperSlide}>
               <div className={styless.testibox}>
                 <div className={styless.testiprofile}>
-                  <img src="https://www.seekpng.com/png/detail/72-729756_how-to-add-a-new-user-to-your.png" />
+                  <img
+                    src="https://www.seekpng.com/png/detail/72-729756_how-to-add-a-new-user-to-your.png"
+                    alt="user icon image"
+                  />
                   <div className={styless.information}>
                     <p className={styless.testfiers}>E. Awolumate</p>
                     <span>(Prof, USA)</span>
