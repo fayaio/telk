@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React, { useRef, useState } from 'react';
+import Galslides from '../comp/sliderone';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -224,6 +225,8 @@ export default function Home() {
             </li>
           </ul>
         </div>
+
+        <Galslides />
 
         <div className={styles.slidesSection}>
           <h3 className={styles.slidesHeader}>3D Hotel Proposed Development</h3>
