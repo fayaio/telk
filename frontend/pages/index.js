@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React, { useRef, useState } from 'react';
+import Galslides from '../comp/sliderone';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -174,6 +175,8 @@ export default function Home() {
             </Grid>
           </Grid>
         </div>
+
+        <Galslides />
 
         {/* Who We Are */}
         <div className={styles.explore}>
