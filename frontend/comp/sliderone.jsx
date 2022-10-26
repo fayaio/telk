@@ -24,7 +24,7 @@ export default function sliderone() {
       Testimonials Section */}
 
       <div className={styless.swiper}>
-        <h3 className={styless.swiperHeader}> Football Meeting</h3>
+        <h3 className={styless.swiperHeader}> BJF SOCIAL</h3>
         <p className={styless.swiperP}>
           Our meeting with the Football coach and former Nigerian Midfielder
           (Maureen MMadu) and her football academy

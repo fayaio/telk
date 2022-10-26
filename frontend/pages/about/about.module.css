@@ -1,6 +1,6 @@
 .abtBanner {
   background: url('https://www.saint-gobain-sekurit.com/sites/hps-mac3-sekurit-sekurit/files/styles/hero_banner_sub_segment_page_desktop/public/2021-03/Hero%20Banner%20stories_0.jpg?itok=hDTDYxzO');
-  height: 32vh;
+  height: 39vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
   text-transform: capitalize;
   text-align: center;
   color: #fff;
-  font-size: 37px;
+  font-size: 30px;
   word-spacing: 12px;
 }
 
@@ -20,7 +20,7 @@
   color: rgb(240, 240, 240);
   font-weight: 200;
   font-family: Raleway;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: -12px;
   word-spacing: 3px;
   text-align: center;

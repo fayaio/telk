@@ -1,41 +1,11 @@
 import Head from 'next/head';
-import styles from './properties.module.css';
-import Image from 'next/image';
-import { Flex, Box, Text, Button } from '@chakra-ui/react';
-import Link from 'next/link';
-
-const properties = ({
-  purpose,
-  title1,
-  title2,
-  desc1,
-  desc2,
-  buttonText,
-  linkName,
-  imageUrl,
-}) => (
-  <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="10">
-    <Image src={imageUrl} width={500} height={300} alt="banner" />
-    <Box p="5">
-      <Text color="gray.500" fontSize="sm" fontWeight="medium">
-        {purpose}
-      </Text>
-      <Text fontSize="3xl" fontWeight="bold">
-        {title1}
-        <br />
-        {title2}
-      </Text>
-      <Text color="gray.700" fontSize="lg" paddingTop="3" paddingBottom="3">
-        {desc1}
-        <br />
-        {desc2}
-      </Text>
-      <Button fontSize="xl" bg="blue.300" color="white">
-        <Link href={linkName}>{buttonText}</Link>
-      </Button>
-    </Box>
-  </Flex>
-);
+import styles from '../../styles/Home.module.css';
+import styless from '../about/about.module.css';
+import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
 
 export default function Properties() {
   return (
@@ -44,18 +14,133 @@ export default function Properties() {
         <title>BJF Properties | Properties</title>
       </Head>
 
+      <div className={styless.abtBanner}>
+        <h2 className={styless.bannerHeader}>Our Properties</h2>
+        <p className={styless.bannersubH}> Explore Properties In Nigeria </p>
+      </div>
+
       <div>
-        <h1>Hello World</h1>
-        <div
-          purpose="Esta A PROPERTY"
-          title1="Rental Homes For"
-          title2="Everyone"
-          desc1="Explore Estates, Homes, Factories"
-          desc2="and more"
-          buttonText="Explore"
-        >
-          {' '}
+        <div className={styles.explore}>
+          <Grid container spacing={6} justifyContent="center">
+            <Grid item>
+              <Card sx={{ maxWidth: 500 }} className={styles.egrid}>
+                <CardMedia
+                  component="img"
+                  height="300"
+                  image="/estatecollage.svg"
+                  alt="BJF mini estate for sale"
+                />
+                <CardContent>
+                  {/* <Box component="div" className={styles.card__overlay}>
+                    <Box component="div" className={styles.card__header}></Box>
+                  </Box> */}
+                  <img
+                    src="/bjflog.svg"
+                    alt="BJF Logo"
+                    className={styles.card__thumb}
+                  />
+                  <Box component="div" className={styles.card__headertext}>
+                    <h3 className={styles.card__title}>
+                      MINI ESTATE <span>FOR SALE</span>
+                    </h3>
+
+                    <h5 className={styles.card__estatedetails}>
+                      Housing 5Bungalows with 5numbers of 3bedroom 3 numbers of
+                      <br></br> 2bedroom and 1 Room self-contain with a Security
+                      house
+                    </h5>
+
+                    <li className={styles.card__status}>
+                      <h4>
+                        Title: <span>C OF O</span>
+                      </h4>
+                      <h4>
+                        Size: <span>1287.6245sqms</span>
+                      </h4>
+                      <h4>
+                        Property Location: <span>Lagos, Nigeria</span>
+                      </h4>
+                    </li>
+                    <Box component="div" className={styles.asskingp__section}>
+                      <Box
+                        component="div"
+                        className={styles.asskingpline1}
+                      ></Box>
+                      <h2 className={styles.asskingp}>
+                        ASKING PRICE: <span>150M</span>
+                      </h2>
+                      <Box
+                        component="div"
+                        className={styles.asskingpline2}
+                      ></Box>
+                    </Box>
+                  </Box>
+                  <a className={styles.moredetails} href="/contact">
+                    Give Us A Call
+                  </a>
+                </CardContent>
+              </Card>
+            </Grid>
+
+            <Grid item>
+              <Card sx={{ maxWidth: 500 }} className={styles.egrid}>
+                <CardMedia
+                  component="img"
+                  height="300"
+                  image="/factorycollage.svg"
+                  alt="alt='BJF factory for sale'"
+                />
+                <CardContent>
+                  <img
+                    src="/bjflog.svg"
+                    alt="BJF Logo"
+                    className={styles.card__thumb}
+                  />
+                  <Box component="div" className={styles.card__headertext}>
+                    <h3 className={styles.card__title}>
+                      FACTORY <span>FOR SALE</span>
+                    </h3>
+
+                    <h5 className={styles.card__estatedetails2}>
+                      Housing 5Bungalows with 5numbers of 3bedroom 3 numbers of
+                      <br></br> 2bedroom and 1 Room self-contain with a Security
+                      house
+                    </h5>
+                    <li className={styles.card__status}>
+                      <h4>
+                        Title: <span>C OF O</span>
+                      </h4>
+
+                      <h4>
+                        Size: <span>1287.6245sqms</span>
+                      </h4>
+                      <h4 className={styles.extra__padding}>
+                        Property Location: <span> Lagos, Nigeria</span>
+                      </h4>
+                    </li>
+                    <Box component="div" className={styles.asskingp__section}>
+                      <Box
+                        component="div"
+                        className={styles.asskingpline1}
+                      ></Box>
+                      <h2 className={styles.asskingp}>
+                        ASKING PRICE: <span>300M</span>
+                      </h2>
+                      <Box
+                        component="div"
+                        className={styles.asskingpline2}
+                      ></Box>
+                    </Box>
+                  </Box>
+                  <a className={styles.moredetails} href="/contact">
+                    Give Us A Call
+                  </a>
+                </CardContent>
+              </Card>
+            </Grid>
+          </Grid>
         </div>
+        <div className={styles.spacing}></div>
       </div>
     </>
   );

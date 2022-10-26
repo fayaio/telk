@@ -177,10 +177,6 @@
   vertical-align: middle;
 }
 
-.extra__padding {
-  /* padding-bottom: 90px; */
-}
-
 @media screen and (max-width: 945px) {
   .egrid {
     margin: 30px;
@@ -1496,4 +1492,7 @@ width: fit-content;
   font-size: 19px;
   color: #0058db;
 } */
+}
+.spacing {
+  height: 40px;
 }

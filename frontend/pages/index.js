@@ -176,6 +176,8 @@ export default function Home() {
           </Grid>
         </div>
 
+        <Galslides />
+
         {/* Who We Are */}
         <div className={styles.explore}>
           <h3 className={styles.exploreheader}>Who We Are</h3>
@@ -225,8 +227,6 @@ export default function Home() {
             </li>
           </ul>
         </div>
-
-        <Galslides />
 
         <div className={styles.slidesSection}>
           <h3 className={styles.slidesHeader}>3D Hotel Proposed Development</h3>
