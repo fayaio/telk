@@ -3,7 +3,8 @@ import styles from './contact.module.css';
 import abstyle from '../about/about.module.css';
 import styless from '../../styles/Home.module.css';
 import Image from 'next/image';
-import ContactForm from '../../comp/contactForm';
+// import ContactForm from '../../comp/contactForm';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -31,7 +32,7 @@ const Contact = () => {
         <h2 className={abstyle.bannerHeader}>CONTACT US</h2>
         <p className={abstyle.bannersubH}>Let's Get In Touch </p>
       </div>
-
+      
       <div className={styles.contactsContainer}>
         <h3 className={styles.contactHeader}>Get To Know us More !</h3>
         <hr style={{ borderColor: '#00325a', width: '10%' }}></hr>
