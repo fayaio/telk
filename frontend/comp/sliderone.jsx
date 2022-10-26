@@ -1,4 +1,4 @@
-import styless from '../styles/Home.module.css';
+import styless from '../comp/sliderone.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -24,8 +24,11 @@ export default function sliderone() {
       Testimonials Section */}
 
       <div className={styless.swiper}>
-        <h3 className={styless.swiperHeader}>Testimonials</h3>
-        <p className={styless.swiperP}>What Our Clients Say</p>
+        <h3 className={styless.swiperHeader}> Football Meeting</h3>
+        <p className={styless.swiperP}>
+          Our meeting with the Football coach and former Nigerian Midfielder
+          (Maureen MMadu) and her football academy
+        </p>
 
         <Swiper
           className={styless.mySwiper}
@@ -47,66 +50,31 @@ export default function sliderone() {
         >
           <div className={styless.swiperWrapper}>
             <SwiperSlide className={styless.swiperSlide}>
-              <div className={styless.testibox}>
-                <div className={styless.testiprofile}>
-                  <img
-                    src="https://www.seekpng.com/png/detail/72-729756_how-to-add-a-new-user-to-your.png"
-                    alt="user icon image"
-                  />
-                  <div className={styless.information}>
-                    <p className={styless.testfiers}>CEO Comet Networks</p>
-                    <span>Atlanta Georgia (USA)</span>
-                  </div>
-                </div>
-                <div className={styless.testContent}>
-                  <p className={styless.testP}>
-                    We contacted BJF ppty and development ltd after we acquired
-                    an old property for our new location in Lagos. BJF did an
-                    excellent job, they outperformed our expectations in every
-                    aspect. Their personnel are very pleasant to deal with. I
-                    will definitely think of them first whenever we have a
-                    property development project.
-                  </p>
-                  <FontAwesomeIcon
-                    className={styless.iconquote}
-                    icon={faQuoteRight}
-                    width={30}
-                  ></FontAwesomeIcon>
-                </div>
-              </div>
+              <img src="/fballpic1.svg" alt="BJF football meeting" />
             </SwiperSlide>
 
             <SwiperSlide className={styless.swiperSlide}>
-              <div className={styless.testibox}>
-                <div className={styless.testiprofile}>
-                  <img
-                    src="https://www.seekpng.com/png/detail/72-729756_how-to-add-a-new-user-to-your.png"
-                    alt="user icon image"
-                  />
-                  <div className={styless.information}>
-                    <p className={styless.testfiers}>E. Awolumate</p>
-                    <span>(Prof, USA)</span>
-                  </div>
-                </div>
-                <div className={styless.testContent}>
-                  <p className={styless.testP}>
-                    As one of the beneficiaries of this great corporate
-                    organization, I will highly recommend them to giving you
-                    first class structure that will be comparable to any
-                    building in the world. This is solely based on their
-                    reliability, architectural designs, prompt responses to keep
-                    you abreast of your property, payment plan and their
-                    flexibility to work with you to accommodate your needs. They
-                    are here to giving you what you need especially if you
-                    reside abroad.
-                  </p>
-                  <FontAwesomeIcon
-                    className={styless.iconquote}
-                    icon={faQuoteRight}
-                    width={30}
-                  ></FontAwesomeIcon>
-                </div>
-              </div>
+              <img src="/fballpic2.svg" alt="BJF football meeting" />
+            </SwiperSlide>
+
+            <SwiperSlide className={styless.swiperSlide}>
+              <img src="/fballpic3.svg" alt="BJF football meeting" />
+            </SwiperSlide>
+
+            <SwiperSlide className={styless.swiperSlide}>
+              <img src="/fballpic4.svg" alt="BJF football meeting" />
+            </SwiperSlide>
+
+            <SwiperSlide className={styless.swiperSlide}>
+              <img src="/fballpic5.svg" alt="BJF football meeting" />
+            </SwiperSlide>
+
+            <SwiperSlide className={styless.swiperSlide}>
+              <img src="/fballpic6.svg" alt="BJF football meeting" />
+            </SwiperSlide>
+
+            <SwiperSlide className={styless.swiperSlide}>
+              <img src="/fballpic7.svg" alt="BJF football meeting" />
             </SwiperSlide>
           </div>
         </Swiper>

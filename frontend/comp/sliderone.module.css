@@ -1,0 +1,84 @@
+.swiper {
+  position: relative;
+  width: 100%;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  align-items: center;
+  background-image: url(../public/testimonialbg.svg);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  margin-top: 80px;
+  margin: 70px auto;
+  border-radius: 6px;
+}
+
+.swiperHeader {
+  text-align: center;
+  font-family: Raleway;
+  color: #fff;
+  margin: 18px;
+  padding: 0px;
+  text-align: center;
+  font-size: 31px;
+  font-weight: 600;
+}
+
+.swiperP {
+  text-align: center;
+  font-family: Raleway;
+  margin: 5px;
+  padding: 0px;
+
+  color: rgb(237, 237, 237);
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.mySwiper {
+  width: 80%;
+  margin: 60px;
+}
+
+.swiperSlide {
+  background-position: center;
+  background-size: cover;
+  max-width: 470px;
+
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 500px) {
+  .swiperSlide img {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .swiperSlide {
+    background-position: center;
+    background-size: cover;
+    max-width: 600px;
+
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  .swiperP {
+    font-size: 15px;
+  }
+
+  .swiperHeader {
+    font-size: 20px;
+  }
+
+  .swiperSlide img {
+    width: 256px;
+  }
+}
