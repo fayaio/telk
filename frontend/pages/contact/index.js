@@ -5,7 +5,6 @@ import styless from '../../styles/Home.module.css';
 import Image from 'next/image';
 import ContactForm from '../../comp/contactForm';
 
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,
@@ -32,8 +31,6 @@ const Contact = () => {
         <h2 className={abstyle.bannerHeader}>CONTACT US</h2>
         <p className={abstyle.bannersubH}>Let's Get In Touch </p>
       </div>
-
-      <ContactForm />
 
       <div className={styles.contactsContainer}>
         <h3 className={styles.contactHeader}>Get To Know us More !</h3>
